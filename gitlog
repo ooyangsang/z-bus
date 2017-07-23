@@ -1,0 +1,3962 @@
+commit da0b242169900b6a01326cee81c98932ef1a8707
+Author: rushmore <44194462@qq.com>
+Date:   Tue May 31 15:51:31 2016 +1200
+
+    fix HA missing broker issue of refactory
+
+commit d1cc4254ff09b8f23a6b0b97c9509acb07e4ea8b
+Author: rushmore <44194462@qq.com>
+Date:   Sun May 29 10:12:28 2016 +1200
+
+    MqServerConfig storePath updated
+
+commit e3777e270b3e9e9c8e42ce21df75baeb3e1a1e7d
+Author: rushmore <44194462@qq.com>
+Date:   Sun May 29 01:17:49 2016 +1200
+
+    MessageClient max package size = 32M
+
+commit 2818650bc386308249abe68277488aa666206d09
+Author: rushmore <44194462@qq.com>
+Date:   Sun May 29 01:17:24 2016 +1200
+
+    MessageClient max package size = 32M
+
+commit c32724ae1d0deb735feb7c13795525603bd02aab
+Author: rushmore <44194462@qq.com>
+Date:   Sun May 29 01:13:01 2016 +1200
+
+    refine net package and update dist
+
+commit 3b5e04dfb02fa0e31f1d12163e2a8903b9eb2ec3
+Author: rushmore <44194462@qq.com>
+Date:   Sun May 29 01:04:19 2016 +1200
+
+    refine net package
+
+commit e8886dc678310f2416c25a85363b88115a5e6729
+Author: rushmore <44194462@qq.com>
+Date:   Fri May 27 23:52:10 2016 +1200
+
+    refine net package to remove ZNET
+
+commit 2ec1adf39d2767dea980561ff2c8cae313f68113
+Author: rushmore <44194462@qq.com>
+Date:   Thu May 26 22:17:28 2016 +1200
+
+    update TODO
+
+commit ab5d0d365f888f8136562640931cc892326acef7
+Author: rushmore <44194462@qq.com>
+Date:   Mon May 23 18:25:16 2016 +1200
+
+    add key duplication example
+
+commit 6a9490b08a464e2ec2cca911b87d51aaa385f699
+Author: rushmore <44194462@qq.com>
+Date:   Fri May 13 09:32:47 2016 +0800
+
+    refine ha package
+
+commit c195d2c41ec61438a4cbc6451fdabda1cd79fecc
+Author: rushmore <44194462@qq.com>
+Date:   Fri May 13 00:00:17 2016 +0800
+
+    purge consumer for netty support
+
+commit 9c7388e0f60d029794886adb8fd41d2065642ab6
+Author: rushmore <44194462@qq.com>
+Date:   Thu May 12 23:52:14 2016 +0800
+
+    just use netty for net module
+
+commit ffc37a43f948a6f4bcf3fd89cdd694c787475ab5
+Author: rushmore <44194462@qq.com>
+Date:   Wed May 4 14:53:47 2016 +0800
+
+    update TODO
+
+commit e753dbcbacd4833164e2252e973a36add0b66e64
+Author: rushmore <44194462@qq.com>
+Date:   Wed May 4 09:03:30 2016 +0800
+
+    @chenj transfer-encoding fixed in Message.invokeSimpleHttp
+
+commit 67800e3e2fe49dc30673406a0147eadb246ca2af
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 28 20:29:32 2016 +0800
+
+    add webservice client example
+
+commit f7b4dbb5711548f6500cc644572a2c5cfd107c6f
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 28 14:15:01 2016 +0800
+
+    upudate dist
+
+commit e7306136c4706595f11f8dce6dcee19c8d5a0395
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 28 14:01:01 2016 +0800
+
+    add embedded http proxy support
+
+commit bbe7ac1f48869bf1681cc2892d0303b4220b1e57
+Author: rushmore <44194462@qq.com>
+Date:   Wed Apr 27 16:29:53 2016 +0800
+
+    Message invokeSimpleHttp support chunked encoding and add Webservice exampels
+
+commit c978037d5ed8cfa22d104830ae30157d3eb5d0df
+Author: rushmore <44194462@qq.com>
+Date:   Tue Apr 26 16:26:37 2016 +0800
+
+    add MqAdminExample
+
+commit bb36e3fd7c8a7c33001942329a5380c230001604
+Author: rushmore <44194462@qq.com>
+Date:   Tue Apr 26 16:12:16 2016 +0800
+
+    fix bug: RemoveMq not destroy message queue in disk
+
+commit 5d221a50694ef36e736e5125e4a3d4e652414c02
+Author: rushmore <44194462@qq.com>
+Date:   Sat Apr 23 00:06:02 2016 +0800
+
+    Message.decodeUrl keep first /
+
+commit 60e431d36ce1382140089a6c0bcbaa1b7d9cae2c
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 21 14:38:26 2016 +0800
+
+    DiskQueuePool mkdir==>mkdirs
+
+commit 8a9826feb0477281dde23f788fec8f250c44f248
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 21 09:43:15 2016 +0800
+
+    fix TTL message poll bug
+
+commit f720958ae1ecaa3bb4eb4eb85648ca4a836b5d73
+Author: rushmore <44194462@qq.com>
+Date:   Tue Apr 19 15:09:44 2016 +0800
+
+    add UrlService example
+
+commit 8ab08b9e814edf2acaae2b2d548fcf98afc61f87
+Author: rushmore <44194462@qq.com>
+Date:   Tue Apr 19 13:31:02 2016 +0800
+
+    Reduce consumer count required for high-loaded RPC, Consumer handler executed in separated thread pool as an option
+
+commit bc273e5c33284690895118536d5d93e827163d18
+Author: rushmore <44194462@qq.com>
+Date:   Tue Apr 19 13:15:58 2016 +0800
+
+    Reduce consumer count required for high-loaded RPC, Consumer handler executed in separated thread pool as an option
+
+commit b64b435f487eb347236ad13a8ec9a96d8f6151a6
+Author: rushmore <44194462@qq.com>
+Date:   Tue Apr 19 13:12:45 2016 +0800
+
+    Reduce consumer count required for high-loaded RPC, Consumer handler executed in separated thread pool as an option
+
+commit 7ba9ea485449e39e0a7a5525156eeb9273cc851b
+Author: rushmore <44194462@qq.com>
+Date:   Mon Apr 18 15:52:16 2016 +0800
+
+    remove TcpProxy
+
+commit 839b9b582eda5d0660415231b662d8be024ea5e3
+Author: rushmore <44194462@qq.com>
+Date:   Mon Apr 18 14:35:00 2016 +0800
+
+    update dist
+
+commit 9bbf94fbfeb9d8a6a8b213aeb1fc495cf74983e7
+Author: rushmore <44194462@qq.com>
+Date:   Mon Apr 18 13:23:46 2016 +0800
+
+    update dist
+
+commit 3c4300e1cf659a1aecdbade1c131da8751455375
+Author: rushmore <44194462@qq.com>
+Date:   Mon Apr 18 13:05:22 2016 +0800
+
+    update dist
+
+commit 202e7c7d177b09448fdad37a6db976a7ef7a6bda
+Author: rushmore <44194462@qq.com>
+Date:   Mon Apr 18 13:02:29 2016 +0800
+
+    session.attr(xx,null) supported to remove entry
+
+commit 95979a6753ea7578b31ff3e04529672dcd434903
+Author: rushmore <44194462@qq.com>
+Date:   Mon Apr 18 12:52:49 2016 +0800
+
+    add proxy package
+
+commit b1a1a7ee6c0de1422100378fad61494d59429b05
+Author: rushmore <44194462@qq.com>
+Date:   Sat Apr 16 09:59:56 2016 +0800
+
+    zbus monitor cmd=query ==> cmd=query_mq
+
+commit 5f9fcb42477c1b32789b7d982186ad0eb9600666
+Author: rushmore <44194462@qq.com>
+Date:   Sat Apr 16 09:55:20 2016 +0800
+
+    MessageClieint fix heartbeat override problem
+
+commit 9c638da79e394bc454436296dc176dbc9ee42913
+Author: rushmore <44194462@qq.com>
+Date:   Fri Apr 15 23:42:55 2016 +0800
+
+    WebSocket! support added
+
+commit fcd52aa2c4d0e854147821274d57536aa3cf7206
+Author: rushmore <44194462@qq.com>
+Date:   Fri Apr 15 23:26:35 2016 +0800
+
+    WebSocketgit add src! support added
+
+commit fca6858b2bbfc39986804f69905c3d7c6dc138bf
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 18:25:43 2016 +0800
+
+    Add SSL configure for zbus
+
+commit e54dab4dc7d9a4b56c6ac1dcdf1de43e4f4e5b8a
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 17:16:56 2016 +0800
+
+    purget dist
+
+commit 27a4b54c2629f561eb1e9f2fe8c7c407e0993e1f
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 17:14:57 2016 +0800
+
+    purge src
+
+commit ab9070f16e0486f4ddb59a6774d6ef9092d7e511
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 17:09:39 2016 +0800
+
+    purge src directorys
+
+commit 8ad32fd79f098fbdf3b12560bd8e4609ac33d45b
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 16:39:50 2016 +0800
+
+    bump to zbus-7.0.0
+
+commit 938e48e3b33c2cb5750de8f3c678a137248ab5d4
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 16:38:03 2016 +0800
+
+    bump to zbus-7.0.0
+
+commit af61c924566dd3959861712fe2f30a626afb43b7
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 16:02:09 2016 +0800
+
+    bump to zbus-7.0.0
+
+commit e0dd3e57660e78b3d9ddfeb24295e6a5fadfd325
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 15:56:18 2016 +0800
+
+    bump to zbus-7.0.0
+
+commit 431237f3806e03da4e8c51c84d07310e7a4bb0b8
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 14 15:16:28 2016 +0800
+
+    release 6.3.1
+
+commit b6dbd62528748916c277f3fcff9689987e45fc04
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 7 14:44:37 2016 +0800
+
+    add DirectRpc HA examples
+
+commit 87ac94e3167b980d9405c91c5b49d16c2dc2ae58
+Author: rushmore <44194462@qq.com>
+Date:   Thu Apr 7 14:35:02 2016 +0800
+
+    add DirectRpc HA examples
+
+commit 719ea2d1dc3263e0b8522b578460ca640bf43cf9
+Author: rushmore <44194462@qq.com>
+Date:   Wed Apr 6 23:34:53 2016 +0800
+
+    DiskQueuePool make scanDir on demand
+
+commit 2df12e7a5075f2114ad1c25a04f09d04aa02a37b
+Author: rushmore <44194462@qq.com>
+Date:   Wed Apr 6 23:13:48 2016 +0800
+
+    make addSlaveMq/removeSlaveMq thread safe
+
+commit 836f1465fb64482e49c75dc86a4ec8c0b7abd81c
+Author: rushmore <44194462@qq.com>
+Date:   Wed Apr 6 23:13:26 2016 +0800
+
+    make addSlaveMq/removeSlaveMq thread safe
+
+commit ab428c8f81722d86bb46c10c8a75ddef47b6c28f
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 30 20:26:28 2016 +0800
+
+    Add HttpDmzProxy and doc
+
+commit 29b96a9d7830f0f0c8081e767a80711fe8cb5883
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 30 20:25:21 2016 +0800
+
+    Add HttpDmzProxy and doc
+
+commit eaa53da3a93d23bb8ef7293cd0411c90a0e7a2b0
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 30 20:24:23 2016 +0800
+
+    Add HttpDmzProxy and doc
+
+commit c96be19d298611e717cfa9cae1d150f3c95d9596
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 30 20:23:17 2016 +0800
+
+    Add HttpDmzProxy and doc
+
+commit 0025a5697adb976bdecb3aec72b7095ef7b596ac
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 30 20:01:15 2016 +0800
+
+    Add HttpDmzProxy and doc
+
+commit dfcc26c5506794cf058a521def8202eba9da518c
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 29 20:36:44 2016 +0800
+
+    Consumer#take, make it threadsafe when IOException occured
+
+commit 2390702ef45eea26da42edcda178a9dbb35abcfa
+Author: rushmore <44194462@qq.com>
+Date:   Fri Mar 25 10:32:42 2016 +0800
+
+    MessageClient default to startup heartbeat
+
+commit f94ec498782e01b64f0dc43c2806911678aa3155
+Author: rushmore <44194462@qq.com>
+Date:   Thu Mar 24 16:01:05 2016 +0800
+
+    add Message delay and TTL support
+
+commit 9d357b8ba66091eb59978766c34a71b2db3f2830
+Author: rushmore <44194462@qq.com>
+Date:   Mon Mar 21 21:44:27 2016 +0800
+
+    release 6.3.0
+
+commit dd0426e0f2430559fa6a94d67b8a07494e347dfd
+Author: rushmore <44194462@qq.com>
+Date:   Mon Mar 21 21:43:19 2016 +0800
+
+    release 6.3.0
+
+commit e61134d518aaf149ad23df9eef187a969b46e545
+Author: rushmore <44194462@qq.com>
+Date:   Sun Mar 20 20:56:51 2016 +0800
+
+    update doc
+
+commit 792120bf909de37ee6eede23b32c68e2d191498a
+Author: rushmore <44194462@qq.com>
+Date:   Sun Mar 20 15:52:19 2016 +0800
+
+    update doc
+
+commit 3753b7906276af1e8a225ccff26cc46b01ba9a35
+Author: rushmore <44194462@qq.com>
+Date:   Sun Mar 20 15:47:01 2016 +0800
+
+    add doc in English
+
+commit 8c3132da11bde262426296b48fcfb7ba970c9f48
+Author: rushmore <44194462@qq.com>
+Date:   Fri Mar 18 12:24:51 2016 +0800
+
+    Fix DefaultAuth null bug
+
+commit 92f11a90850d4c6d72db7725f6fe37d5a95518e4
+Author: rushmore <44194462@qq.com>
+Date:   Fri Mar 18 08:55:34 2016 +0800
+
+    DefaultAuth updated for null bug
+
+commit c0507e2916755960c146cb9d5e3d96813efc9949
+Author: rushmore <44194462@qq.com>
+Date:   Thu Mar 17 20:34:19 2016 +0800
+
+    update doc
+
+commit ad8cdc29f79688c6418984a65d08d9b597ff39c7
+Author: rushmore <44194462@qq.com>
+Date:   Thu Mar 17 08:55:23 2016 +0800
+
+    update doc
+
+commit cdc14f4db668b6d27e29ece599b637c99dd526fb
+Author: rushmore <44194462@qq.com>
+Date:   Thu Mar 17 08:43:38 2016 +0800
+
+    update doc
+
+commit 613cc357daa4e18f1f59e67385d54666eb0b903b
+Author: rushmore <44194462@qq.com>
+Date:   Thu Mar 17 08:42:27 2016 +0800
+
+    purge doc
+
+commit 9bd1abec5e17d00530af60bab2d4b32c7f218560
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:30:19 2016 +0800
+
+    purge doc
+
+commit 27abdb72a30e4db4f8f353fb99873afeac5cc45b
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:28:53 2016 +0800
+
+    purge doc
+
+commit 8964b5de8358fd929e1fa563e2771c508be28c09
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:20:17 2016 +0800
+
+    update doc
+
+commit 4ca49e2b491dff002944eb6f06b38788b936f9d4
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:17:17 2016 +0800
+
+    Update Readme_EN.md
+
+commit 5bf05615e351373bca27b15ce25590c04f4b19f8
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:16:02 2016 +0800
+
+    Update Readme_EN.md
+
+commit 60840f1ecca780d18eaaef0f167ec5126578bb5c
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:13:44 2016 +0800
+
+    Update Readme_EN.md
+
+commit f94e80d8b0e94490a7a1939dd2897fab96079739
+Merge: cd47f8f e9baf74
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:04:34 2016 +0800
+
+    Merge branch 'master' of git.oschina.net:rushmore/zbus
+
+commit cd47f8f02af92c9e519330ee6fbc99980c301925
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:03:52 2016 +0800
+
+    update doc
+
+commit e9baf74a5d3e523d15b2098072c1508ccd1e8dbd
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 16:00:55 2016 +0800
+
+    Update Readme_EN.md
+
+commit 5db837cc95fe0e62b5f2b210879c21cbac1fd8a8
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 15:53:48 2016 +0800
+
+    update doc
+
+commit fa8333fc6e46801b0f8355c31d87f1f72e1b9bf8
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 15:06:21 2016 +0800
+
+    update doc
+
+commit 9c837557fbce97211dc819458a8903ce3fff4999
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 12:23:48 2016 +0800
+
+    make Consumer gracefully throw MqException
+
+commit 5ce8027ec92e2286da4014fd20c2fb75fd96d871
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 11:12:46 2016 +0800
+
+    make Consumer gracefully throw MqException
+
+commit 2b9eaeba82485ce49560dff6efaf289409ffbcbd
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 10:41:07 2016 +0800
+
+    fix AccessToken of MQ not persisted
+
+commit fcc4264ab9b35e1d3cd42a2fdd326115696cfa21
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:59:26 2016 +0800
+
+    update doc
+
+commit a499b8b504c711b1cba4ea017961aee869a734f0
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:59:02 2016 +0800
+
+    update doc
+
+commit ecf491278b0b55a92fa7dbd798f9ec4bcbce626f
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:57:36 2016 +0800
+
+    update doc
+
+commit 24da3bbcebd5dc8ddf2913dcb8377eb60fc1090c
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:56:30 2016 +0800
+
+    update doc
+
+commit e4cb7a6b953d5b47bd2114cdbc4307d716ae92c6
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:56:04 2016 +0800
+
+    update doc
+
+commit f0ebdaa3f8e0cb2a343f0cf2a4f7572173563c14
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:55:23 2016 +0800
+
+    update doc
+
+commit 6ac999034bc46d863dd5905bd40e2dd9b27f5e1e
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:55:02 2016 +0800
+
+    update doc
+
+commit c3191b3f0774122e5892a8fd09ac166f8dd640e9
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:53:59 2016 +0800
+
+    update doc
+
+commit aa7e3d52788ae66b040820cbf1cc6e347f046dcc
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 16 08:51:27 2016 +0800
+
+    update doc
+
+commit 51da79ef83e7914ef5e290201b48bfc5472053ee
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:35:41 2016 +0800
+
+    update doc
+
+commit adc7e5161782c7828e02a573f08d5d9c04ea38f6
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:26:36 2016 +0800
+
+    update doc
+
+commit 31d9e8b323c855fa63b3219e2818e0b382581c7e
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:25:36 2016 +0800
+
+    update doc
+
+commit 136e2064205ab0876b0da8980c52fc0c537c1a7e
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:23:13 2016 +0800
+
+    update doc
+
+commit 284acc6d9e01bab6feadead4ed298aef93646ac5
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:20:38 2016 +0800
+
+    update doc
+
+commit 024c0e6588566fc457db525b2387d2aec7c60354
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:17:04 2016 +0800
+
+    update doc
+
+commit 3a6c6bcaa6e64a069afe55db8323dd73ad47230c
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:16:43 2016 +0800
+
+    update doc
+
+commit e5b78b64b89ad260e1052795abe8864631af8b24
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:09:49 2016 +0800
+
+    update doc
+
+commit d8deb40d3070c90437d5efc148c14ad5228a95a5
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:07:38 2016 +0800
+
+    update doc
+
+commit 45b21a49efc73764c433052f0b578a984dadec27
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:06:28 2016 +0800
+
+    update doc
+
+commit 0452769c859ee3452ef06dca77ef126d03f90ab5
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 20:02:58 2016 +0800
+
+    update doc
+
+commit 3ffa706e07edb4df320b28a7e6d60ad7bf180cff
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 09:04:07 2016 +0800
+
+    update doc
+
+commit 208414fae018a8be0e1c618e5d533dc40ba7e60c
+Author: rushmore <44194462@qq.com>
+Date:   Tue Mar 15 09:03:26 2016 +0800
+
+    update doc
+
+commit 3d81453dab688cda8d91759a3ee33a682d0ae75b
+Author: rushmore <44194462@qq.com>
+Date:   Mon Mar 14 22:14:55 2016 +0800
+
+    update doc
+
+commit c683662579ab9518f8645264d4f10df539f6689b
+Author: rushmore <44194462@qq.com>
+Date:   Mon Mar 14 16:52:47 2016 +0800
+
+    update doc
+
+commit 60dc60bbcfec0d31926d70c090bbfbb433460c65
+Author: rushmore <44194462@qq.com>
+Date:   Sun Mar 13 21:28:21 2016 +0800
+
+    consumer recv deprecated by take
+
+commit 8b34eebebe9d3ae18e705ecbc31f6bbeb0920740
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 9 15:22:21 2016 +0800
+
+    Add Producer/Consumer performance examples
+
+commit 55e422e4216edc45d6c7e836178140e3aeb7a92c
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 9 13:47:37 2016 +0800
+
+    Connection failure message add target info
+
+commit 0f8c5dc5f8ba1eec0e306dfedb2ff250e4d96d43
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 9 13:46:55 2016 +0800
+
+    Connection failure message add target info
+
+commit 33e596611b2a480b780857355e7a289141c83efb
+Author: rushmore <44194462@qq.com>
+Date:   Mon Mar 7 15:57:01 2016 +0800
+
+    remove unused properities
+
+commit 6837aea59df0ae1a09e203ec8af6b892a45c6027
+Author: rushmore <44194462@qq.com>
+Date:   Wed Mar 2 14:09:28 2016 +0800
+
+    fix DiskQueueIndex read bug
+
+commit c6d98d4d2f972d890ccfa8a5e57706f4838fd7ab
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 28 09:42:22 2016 +0800
+
+    fix ZbusBroker HA address parse bug
+
+commit cf9ab89b3a5bca76e5ec63d752a8ffefe8b16d6c
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 28 09:40:08 2016 +0800
+
+    fix ZbusBroker HA address parse bug
+
+commit ce0e3f240b45e10feca262b22ba12ecf14c09a78
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 28 09:30:58 2016 +0800
+
+    fix ZbusBroker HA address parse bug
+
+commit 3189dd15aefb16be40671ee029fe0f83e50a1e6f
+Author: rushmore <44194462@qq.com>
+Date:   Fri Feb 26 20:17:34 2016 +0800
+
+    Add MQ master-slave support and examples
+
+commit a4567ba6430c96e4dd380e537e3127f02ad15964
+Author: rushmore <44194462@qq.com>
+Date:   Fri Feb 26 11:05:43 2016 +0800
+
+    fix PersistMqFilter removeKey failure
+
+commit 9121a51a604984b651905c5389b066aa46709222
+Author: rushmore <44194462@qq.com>
+Date:   Fri Feb 26 11:04:13 2016 +0800
+
+    fix PersistMqFilter removeKey failure
+
+commit e90ce5f8b3d4a26874663351a958aab1d9e326e4
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 17:59:55 2016 +0800
+
+    Filtered message return 406 status
+
+commit 569edfd1184b9a794e95ba556fb421bfd7f00574
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 16:11:19 2016 +0800
+
+    Add ZbusBroker to abstract all type of Brokers: jvm/single/ha
+
+commit ab32ea5f26614e3e1a836c0383705efa3e9c076c
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 16:10:43 2016 +0800
+
+    Add ZbusBroker to abstract all type of Brokers: jvm/single/ha
+
+commit 72b9d0ff0b0433794d7923d3f8ac1765a299979b
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 15:39:04 2016 +0800
+
+    Add ZbusBroker to abstract all type of Brokers: jvm/single/ha
+
+commit ee14ca8b72aafe8a09d7e08aa4b35169a3f7b1f5
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 15:03:04 2016 +0800
+
+    Add ZbusBroker to abstract all type of Brokers: jvm/single/ha
+
+commit aee450e4b00326f432f2c78d5df763953fb69f84
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 14:43:32 2016 +0800
+
+    Add ZbusBroker to abstract all type of Brokers: jvm/single/ha
+
+commit 64c1a26e48d83d765fb78ef172e1eff5a672bc7f
+Author: rushmore <44194462@qq.com>
+Date:   Thu Feb 25 11:05:56 2016 +0800
+
+    add two queue request-reply example
+
+commit fee0072e980b717152cc2332a38496038e3b8f4e
+Author: rushmore <44194462@qq.com>
+Date:   Wed Feb 24 20:29:55 2016 +0800
+
+    LocalBroker move to org.zbus.broker package
+
+commit de3b20e1b96c9aaca02c868e173f39119cbe3535
+Author: rushmore <44194462@qq.com>
+Date:   Wed Feb 24 16:59:54 2016 +0800
+
+    update TODO
+
+commit bbf82a51a9a282152f660e4b9e254751d1465c97
+Author: rushmore <44194462@qq.com>
+Date:   Tue Feb 23 14:52:25 2016 +0800
+
+    Update PersistMqFilter with DBD support
+
+commit 81c9602721924b0308c7d4270c732be96c0d8abb
+Author: rushmore <44194462@qq.com>
+Date:   Mon Feb 22 23:11:39 2016 +0800
+
+    Add removeMQ / dynamic Key filter in MQ
+
+commit ff64a2b2ef26b07ba005cbbfa5a9b8044b90c94e
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 21 21:39:00 2016 +0800
+
+    Add MessageClientFactory to facilitate Pool for MessageClient
+
+commit 2351daf1734dddfcf4ab8071edd30028278fcdc3
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 21 18:35:50 2016 +0800
+
+    Update Readme
+
+commit 03a87b8a92d22676a5e695bca7f9a43edf17f0bf
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 21 18:34:55 2016 +0800
+
+    Update Readme
+
+commit 27474dfe4b2c13f9b069cff8fdec8e8409fe1fb2
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 21 18:30:14 2016 +0800
+
+    Add local broker examples and LocalBroker no need to start MqServer
+
+commit 019884a0a72a9299ace671e2336394922a307650
+Author: rushmore <44194462@qq.com>
+Date:   Sat Feb 20 15:24:45 2016 +0800
+
+    add LocalBroker
+
+commit 5821cfb4c559832c89a0515c9d07d5c03c7c0b7f
+Author: rushmore <44194462@qq.com>
+Date:   Fri Feb 19 16:00:36 2016 +0800
+
+    add Readme_EN.md
+
+commit 1c3c72d5ee21c4bb35f1f29871bf6ba464492806
+Author: rushmore <44194462@qq.com>
+Date:   Fri Feb 19 14:46:45 2016 +0800
+
+    Broker/Consumer/Producer changed to MessageInvoker based
+
+commit 4eb446fb3e2d62bac547fca5c4329441f5f46d34
+Author: rushmore <44194462@qq.com>
+Date:   Wed Feb 17 11:23:37 2016 +0800
+
+    add mysql proxy example
+
+commit f1ec37bf54d1beac94ad7e05f472cac0c046e68d
+Author: rushmore <44194462@qq.com>
+Date:   Sun Feb 14 23:15:36 2016 +0800
+
+    refine perf
+
+commit 85f3410f254e9bd517dac16185a550c7ad312fcd
+Author: rushmore <44194462@qq.com>
+Date:   Fri Feb 12 11:03:18 2016 +0800
+
+    update java doc
+
+commit 15ffe285e8d1da5990a7528bfb0f49f1d04f1dce
+Author: rushmore <44194462@qq.com>
+Date:   Sat Jan 30 00:41:43 2016 +0800
+
+    refine examples
+
+commit 0d8a3c0e56b0150fbb4cc3a60199378a694f02ff
+Author: rushmore <44194462@qq.com>
+Date:   Sat Jan 30 00:29:07 2016 +0800
+
+    refine examples
+
+commit 8578f68a18075765c24c38d6c965200e13f87418
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 29 21:28:08 2016 +0800
+
+    refine net examples
+
+commit 67d449ec4a8f8afad45fbd55a76a7da63ccc152b
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 29 21:04:36 2016 +0800
+
+    refine pubusb examples
+
+commit b2b7a4105b2bc5882da35ec707c9b7a9ce1a10ec
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 29 20:59:09 2016 +0800
+
+    GatewayClient change to rpc client
+
+commit daa5f0baee4e3df4c623eaa9128ac9678a1dba4d
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 29 20:55:44 2016 +0800
+
+    GatewayClient change to rpc client
+
+commit ff7d5158b21e3878f7666a3ce44b2ad4f8b377f5
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 29 13:03:39 2016 +0800
+
+    fix Rpc binary field failure and add RpcGatewayHandler
+
+commit 248d5e955c9f2a817e785118f29f6781556f7c3a
+Author: rushmore <44194462@qq.com>
+Date:   Thu Jan 28 23:20:02 2016 +0800
+
+    refine gateway
+
+commit 1c52cce4a82a566eb587b73db7893e35d08dab35
+Author: rushmore <44194462@qq.com>
+Date:   Thu Jan 28 10:01:06 2016 +0800
+
+    Rpc Exception arise if only error setted without stackTrace
+
+commit a492c8021f50505553042392835b35dd78c703aa
+Author: rushmore <44194462@qq.com>
+Date:   Wed Jan 27 15:16:56 2016 +0800
+
+    add GatewayClient example
+
+commit 23b2ba00c8fb9af764231e94848b5a2d580bc694
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 26 22:01:01 2016 +0800
+
+    add zbus gateway examples
+
+commit c8c248280e376785de71bdc2f39fd59b1251b336
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 25 15:42:14 2016 +0800
+
+    fix consumer thread blocking when interrupted
+
+commit 2ff0dd1c4701b037479593a7309caa4ff7a9e6a0
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 25 15:38:42 2016 +0800
+
+    fix consumer thread blocked when interrupted
+
+commit cd813402021feb38d099cbe8ea3cf9b425f95dfc
+Author: rushmore <44194462@qq.com>
+Date:   Sun Jan 24 22:02:51 2016 +0800
+
+    update dist
+
+commit a2c53dbe2f44267b36d8c7b1ef34ec426853f673
+Author: rushmore <44194462@qq.com>
+Date:   Sun Jan 24 21:52:39 2016 +0800
+
+    update dist
+
+commit 0e9d66fa81baaf8b0eb3daad7d05d090530e44e4
+Author: rushmore <44194462@qq.com>
+Date:   Sun Jan 24 19:51:58 2016 +0800
+
+    add DiskBlockingQueue
+
+commit 337bd41777c20d0822130a00329988a2cc83e37a
+Author: rushmore <44194462@qq.com>
+Date:   Sat Jan 23 10:53:37 2016 +0800
+
+    add java doc and some naming refines
+
+commit 42db86c10c56eb7bd7dd7f9c19140c20f1ffa0c1
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 22 23:38:04 2016 +0800
+
+    update examples
+
+commit b5bf86eca72b150d3420bc54d7c7bfe883deab56
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 22 23:20:32 2016 +0800
+
+    update examples
+
+commit 4eaa08ca90ea9fbff3a1ccd4d1d68e131d2dafbf
+Author: rushmore <44194462@qq.com>
+Date:   Wed Jan 20 13:34:48 2016 +0800
+
+    update TODO
+
+commit 142e69b7f13bf6e0a8bf3cd2bff24601f5e40f58
+Author: rushmore <44194462@qq.com>
+Date:   Wed Jan 20 13:30:32 2016 +0800
+
+    correct typo of DiskQueue
+
+commit ff7cbead1717a377ebf1ad2e64a0d67e865a4479
+Author: rushmore <44194462@qq.com>
+Date:   Wed Jan 20 13:28:23 2016 +0800
+
+    correct typo of DiskQueue
+
+commit 66b52af95fb641a8fecdf6face1609a5eef62a4f
+Author: rushmore <44194462@qq.com>
+Date:   Wed Jan 20 10:20:59 2016 +0800
+
+    pool kit log info changed to debug level
+
+commit e33cd94b2e475d6e74818737c821dabe1ef49b29
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 19 21:52:03 2016 +0800
+
+    fix producer refactor bug
+
+commit 45a1712eac1ad18f246aa596a6f1f1674089afde
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 19 13:52:09 2016 +0800
+
+    MqFilter add BerkeleyDB support
+
+commit 78b4a858d11279a5bd0f66113f19b891f3230552
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 19 13:44:38 2016 +0800
+
+    MqFilter add BerkeleyDB support
+
+commit da809602ff5c2347dd43d0bf4b949ef7c5cfb795
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 19 13:28:24 2016 +0800
+
+    MqFilter add BerkeleyDB support
+
+commit 4a55cf5a35517e5c7aad220793163c6e58d90b36
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 19 13:21:22 2016 +0800
+
+    MqFilter add BerkeleyDB support
+
+commit fe1340599d8388ed8cf53b175d49a044b6b0619b
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 18 14:28:22 2016 +0800
+
+    pubsub topic changed from add to set
+
+commit ac07618c9ff26675cfa5ff4e4459e38fd0df6061
+Author: rushmore <44194462@qq.com>
+Date:   Sun Jan 17 22:17:21 2016 +0800
+
+    add rpc new examples
+
+commit 08544eab79ff1326dc9d11cdfef55c0f60d17b39
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 11 17:04:33 2016 +0800
+
+    add QCopy design doc
+
+commit d293a20b35f62e62112baf94ebd50736716172fd
+Author: rushmore <44194462@qq.com>
+Date:   Sat Jan 9 16:09:27 2016 +0800
+
+    update zbus.sh
+
+commit 6820550970b27715eb859ecab9c08a5e2fbbfc5e
+Author: rushmore <44194462@qq.com>
+Date:   Sat Jan 9 16:03:47 2016 +0800
+
+    updte dist
+
+commit f0f8dddbd6d483ba0baadc26a9faa80e79154f9c
+Author: rushmore <44194462@qq.com>
+Date:   Sat Jan 9 16:01:35 2016 +0800
+
+    remove dist
+
+commit eff7d5c60533f927ea095ef710df15050f09303c
+Author: rushmore <rushmore@rushmoredeMacBook-Pro.local>
+Date:   Sat Jan 9 15:43:17 2016 +0800
+
+    touch
+
+commit 37a4420435e4eb5332f4cbd488e785994b407e96
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 5 22:39:25 2016 +0800
+
+    refine diskq
+
+commit 541c68c1c2d48f99db068bff55eaeca594b98cd1
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 5 22:15:41 2016 +0800
+
+    remove proxy and thrift
+
+commit f7903069cbede750a2065837a1bfa915c42c1477
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 5 22:04:37 2016 +0800
+
+    remove proxy and thrift
+
+commit 23102070dd839c83c4b044b95f991bd83a57c1fc
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 5 21:57:51 2016 +0800
+
+    remove proxy and thrift
+
+commit ca7c4fee8e34e9bb3e1c3a5eff5c8f40af467886
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 5 21:40:29 2016 +0800
+
+    refine zbus.net naming
+
+commit 0b5c06701986756fbd513dca55c452e952bf0f82
+Author: rushmore <44194462@qq.com>
+Date:   Tue Jan 5 13:02:52 2016 +0800
+
+    DiskQueue added
+
+commit 83151ec2eb7b9ec66c123dc92ee98c3f9f053fa8
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 4 22:19:12 2016 +0800
+
+    add jvm disk queue support
+
+commit 6d2755b790388018d10ce12c63c5a1ad91692238
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 4 16:41:25 2016 +0800
+
+    fix rpc ack error in producerHandler of MqAdaptor
+
+commit 3b68ce97d514d6d081989448132895cc9849df61
+Author: rushmore <44194462@qq.com>
+Date:   Mon Jan 4 15:56:39 2016 +0800
+
+    Message add getMethod/setMethod
+
+commit a84cc6d23aec8cb3bf51e47466f12653632a6363
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 1 09:48:04 2016 +0800
+
+    Add message unqiue key support
+
+commit ae3bdd5ff1693897147046623819f195b499935c
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 1 09:22:20 2016 +0800
+
+    Add message unqiue key support
+
+commit 7e86bb9da9e8d379865660955742653487a8107a
+Author: rushmore <44194462@qq.com>
+Date:   Fri Jan 1 09:11:51 2016 +0800
+
+    Add message unqiue key support
+
+commit 271bcd6dec8af269dc6c47a14855f62035979400
+Author: rushmore <44194462@qq.com>
+Date:   Wed Dec 30 15:50:46 2015 +0800
+
+    add linux shell for HA
+
+commit 5f27fd60950af18eca25a3597cf7ce25cf758c81
+Author: rushmore <44194462@qq.com>
+Date:   Sat Dec 26 14:24:35 2015 +0800
+
+    Rpc json exception strackTrace add null test
+
+commit 310eb411684b525696940a91179d878e9bce7649
+Author: rushmore <44194462@qq.com>
+Date:   Wed Dec 23 20:44:03 2015 +0800
+
+    Rpc Service Down notify support
+
+commit e010fcfd4b77b54d093c33f63fc7dd22dc3d4939
+Author: rushmore <44194462@qq.com>
+Date:   Mon Dec 21 15:44:47 2015 +0800
+
+    update HA doc
+
+commit 99153b1f324215717b11e2ed677385733207d367
+Author: rushmore <44194462@qq.com>
+Date:   Fri Dec 11 09:42:03 2015 +0800
+
+    Update version in readme
+
+commit ae1719644a9eb79d0f02190fea353b267f0c2ef4
+Author: rushmore <44194462@qq.com>
+Date:   Mon Dec 7 11:15:30 2015 +0800
+
+    Client.onMessage discard change to debug level
+
+commit 0b2a0a09a07d1bc76c81f3fbf572500ab91a1049
+Author: rushmore <44194462@qq.com>
+Date:   Mon Dec 7 11:13:58 2015 +0800
+
+    Client.onMessage discard change to debug level
+
+commit 910bc964ffad36bd58568c311d87ab64b6c71626
+Author: rushmore <44194462@qq.com>
+Date:   Thu Dec 3 14:27:34 2015 +0800
+
+    update HA bat
+
+commit 18df6f98b944f2d889cce2ed34e8380a9df88ca2
+Author: rushmore <44194462@qq.com>
+Date:   Thu Dec 3 13:47:16 2015 +0800
+
+    update HA doc
+
+commit 4bac9448a4476568f4ff3d372d75054febe82afc
+Author: rushmore <44194462@qq.com>
+Date:   Sat Nov 28 20:33:20 2015 +0800
+
+    fix consumer slow on Linux
+
+commit 157f4ae4f31dcd1764dc7f9c81ae2d4ddad7aad3
+Author: rushmore <44194462@qq.com>
+Date:   Sat Nov 28 20:24:57 2015 +0800
+
+    fix consumer slow on Linux
+
+commit 3f7c8ff3bfdfcbefc41c7b2603fb387bef619b32
+Author: rushmore <44194462@qq.com>
+Date:   Tue Nov 10 13:59:41 2015 +0800
+
+    update test examples
+
+commit 921cbfb8e22ffd44a9f9b925d59e804a7101cbf8
+Author: rushmore <44194462@qq.com>
+Date:   Tue Nov 10 09:15:36 2015 +0800
+
+    fix tcp_proxy.bat
+
+commit 4dc13dbe71e21f549e6f658142f4ebfec3801e9d
+Author: rushmore <44194462@qq.com>
+Date:   Mon Nov 9 22:06:23 2015 +0800
+
+    ServerMainIp support configure -ipOrder, Message.setBody fix bug
+
+commit eb61058256510f1c1ce1208d39bff88a2fbb937c
+Author: rushmore <44194462@qq.com>
+Date:   Thu Nov 5 22:21:14 2015 +0800
+
+    Message setBody using encoding if possible
+
+commit ed125ca0537dc781f3808a950e0a440a42f663ec
+Author: rushmore <44194462@qq.com>
+Date:   Thu Nov 5 19:13:52 2015 +0800
+
+    update RpcProcesor e.getCause==>e
+
+commit 50b5ed278c3e920e166e9715e224b29ddeb61735
+Author: rushmore <44194462@qq.com>
+Date:   Thu Nov 5 13:15:37 2015 +0800
+
+    Message class getBodyString using 'encoding' by default
+
+commit ce36865139299880e8605c3aa893e7e7b7185d69
+Author: rushmore <44194462@qq.com>
+Date:   Tue Nov 3 15:17:56 2015 +0800
+
+    multi-broker add RPC monitor support
+
+commit ecd59610c6a57bb9738481d6be4376027086741e
+Author: rushmore <44194462@qq.com>
+Date:   Tue Nov 3 10:03:38 2015 +0800
+
+    log typo fixed
+
+commit 97f5fcb5990b479149f78af2ea05733d82c75546
+Author: rushmore <44194462@qq.com>
+Date:   Mon Nov 2 15:05:44 2015 +0800
+
+    Direct Rpc support URL access
+
+commit 57d50e030496113e7b064881fa52cf83a1ce0f5d
+Author: rushmore <44194462@qq.com>
+Date:   Sun Nov 1 23:39:10 2015 +0800
+
+    RPC monitor method info added
+
+commit 7d9c4edcc761bbf50ec7ddaf9d6b0373a7e74a5d
+Author: rushmore <44194462@qq.com>
+Date:   Sun Nov 1 23:10:46 2015 +0800
+
+    RPC monitor method info added
+
+commit cd56dce4146c1732cf308852c2c8f21a57bb1651
+Author: rushmore <44194462@qq.com>
+Date:   Sun Nov 1 17:36:19 2015 +0800
+
+    add rpc resultfull from browser & monitor updated
+
+commit b2f0ef1cd100bb87abbda5dccd3e172655265a96
+Author: rushmore <44194462@qq.com>
+Date:   Sun Nov 1 17:25:56 2015 +0800
+
+    add rpc resultfull from browser & monitor updated
+
+commit c59cf055193b558f604c277b16d88969b306273e
+Author: rushmore <44194462@qq.com>
+Date:   Sun Nov 1 15:53:36 2015 +0800
+
+    add rpc resultfull from browser
+
+commit bca3870f6ae38b4ba3377abc5a534f6b713d8032
+Author: rushmore <44194462@qq.com>
+Date:   Thu Oct 29 23:50:10 2015 +0800
+
+    update doc
+
+commit 95717bd7354aa42e7731872f3c51dbb55deece3b
+Author: rushmore <44194462@qq.com>
+Date:   Thu Oct 29 23:45:45 2015 +0800
+
+    update doc
+
+commit ab4a57106694c35265deaa55706f84345e9ee57b
+Author: rushmore <44194462@qq.com>
+Date:   Thu Oct 29 21:44:41 2015 +0800
+
+    Update zbus.sh
+
+commit 75b7848f2871e2981d31dcbea436c9666026a83d
+Author: rushmore <44194462@qq.com>
+Date:   Thu Oct 29 14:51:17 2015 +0800
+
+    Sl4j logging support finished
+
+commit 4aa83a6271dfefad4fae80aa24cd5fe1918cfeff
+Author: rushmore <44194462@qq.com>
+Date:   Thu Oct 29 14:04:28 2015 +0800
+
+    Sl4j logging support finished
+
+commit fdc9bcf3890e206639de257c350cffc0c3e63867
+Author: rushmore <44194462@qq.com>
+Date:   Tue Oct 27 16:49:44 2015 +0800
+
+    Dispatcher selector thread count default to #CPU/2
+
+commit 5a10c29b53e0ec250c0792ea6967d9d262fb647d
+Author: rushmore <44194462@qq.com>
+Date:   Wed Oct 21 16:19:59 2015 +0800
+
+    PubSub distribution bug fixed
+
+commit 5421e8cb1ef2f8722a99d72e681adae8c90b5faf
+Author: rushmore <44194462@qq.com>
+Date:   Mon Oct 19 13:46:07 2015 +0800
+
+    RpcProcessor add default ctor
+
+commit afc6a746e353e14239d5f596ebbd996d3f0d5048
+Author: rushmore <44194462@qq.com>
+Date:   Fri Oct 16 09:25:20 2015 +0800
+
+    fix MqAdaptor.routeHanlder target write error
+
+commit 9a98171ef87a42d46619b47c80a77a435ff38d9a
+Author: rushmore <44194462@qq.com>
+Date:   Fri Oct 16 09:15:56 2015 +0800
+
+    fix MqAdaptor.routerHandler target error
+
+commit d9f5e26e4253310c1041457aaa67c0a6d1834e59
+Author: rushmore <44194462@qq.com>
+Date:   Wed Oct 14 20:55:34 2015 +0800
+
+    update zbus.sh
+
+commit 113410b2ec62c87770329857bb75180d864fbd6b
+Author: rushmore <44194462@qq.com>
+Date:   Wed Oct 14 15:45:00 2015 +0800
+
+    update perf examples
+
+commit cbd781fbae02e08043743846e059976940cf3b13
+Author: rushmore <44194462@qq.com>
+Date:   Wed Oct 14 15:27:19 2015 +0800
+
+    Dispatcher selectorCount default to #CPU/4
+
+commit 7fc058dc7090432358f9befbf3d38e76638babc0
+Author: rushmore <44194462@qq.com>
+Date:   Wed Oct 14 15:24:53 2015 +0800
+
+    Dispatcher selectorCount default to #CPU/4
+
+commit cb58ee6973c7946b5bc701af78ad40899d2aa908
+Author: rushmore <44194462@qq.com>
+Date:   Wed Oct 14 15:10:31 2015 +0800
+
+    Dispatcher defaultSelectorCount=#CPU/4
+
+commit 1730a5528c6b0dfa0090a8fa958e46f32babfd36
+Author: rushmore <44194462@qq.com>
+Date:   Tue Oct 13 22:26:46 2015 +0800
+
+    add slf4j adaptor
+
+commit 0aec80158305626f9cdf6ceced9b8aee84f1738f
+Author: rushmore <44194462@qq.com>
+Date:   Tue Oct 13 20:06:05 2015 +0800
+
+    Consumer timeout default to 5 minutes
+
+commit e4568fd86e45a90124bb7af07ffcc6dd48361c77
+Merge: 44c0495 db94094
+Author: rushmore <44194462@qq.com>
+Date:   Tue Oct 13 09:36:51 2015 +0800
+
+    Merge branch 'master' of https://git.oschina.net/rushmore/zbus
+
+commit 44c04951d7b768ee15472c4fb842a682518e147f
+Author: rushmore <44194462@qq.com>
+Date:   Tue Oct 13 09:36:19 2015 +0800
+
+    add rpc Null example
+
+commit db94094b2992a1e27f48bfcfa306884e4abb9d6d
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Oct 12 22:56:48 2015 +0800
+
+    Update version
+
+commit 887f707e8503a5b14d1f8388d38545b28c0e6d1c
+Author: rushmore <44194462@qq.com>
+Date:   Mon Oct 12 21:35:54 2015 +0800
+
+    TcpProxy add multi-entry support, net.Server fix bug of serverAddr
+
+commit a73226dd7fae81d754cc646c67d2c0f6b9a4bd06
+Author: rushmore <44194462@qq.com>
+Date:   Mon Oct 12 14:13:34 2015 +0800
+
+    update rpc examples
+
+commit 211eec104c02a1f637736153b5fb95e9ebda194a
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Oct 11 14:30:17 2015 +0800
+
+    mq close bug rollback
+
+commit 44a8499530f24d4ea39d757454648db90812ebe8
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Oct 11 11:06:09 2015 +0800
+
+    add support of random port in Server
+
+commit 24eae3d3e01e178af02fe347c000ecf27340648b
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Oct 10 16:14:53 2015 +0800
+
+    fix bug for DirectRpc
+
+commit 79372500a25e41fd30ad873e1ed475a259a26cc2
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Oct 8 14:03:39 2015 +0800
+
+    update rpc perf examples
+
+commit 4dcdd3aaa6ceb2a95b6659030bf905e0aca41236
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Oct 6 16:25:13 2015 +0800
+
+    SingleBroker add Dispatcher config
+
+commit 4f574212d96fae1eabab5428455210dd136eb23a
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Oct 6 12:56:44 2015 +0800
+
+    fix DirectRpc heatbeat issue, removeModule support
+
+commit 2825e2b90b72573fe0c3602c444ddd9d36e5c9d1
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Oct 6 09:55:58 2015 +0800
+
+    refine diskq
+
+commit 97510f77d8dc71ffc05b038a7683983b05d4713b
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Oct 4 23:09:51 2015 +0800
+
+    refine DiskQueue
+
+commit 59f566fffd20821ffa1227524e0cba72a0ccc094
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Oct 4 12:51:07 2015 +0800
+
+    refine DiskQueue
+
+commit 6c33ef138c18c13a426bbd31b2bd4c83f53bcd80
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Oct 3 20:35:38 2015 +0800
+
+    add access authentication
+
+commit a07d483acba61268ac38a8b357f76e627cf52ed4
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Oct 1 09:52:00 2015 +0800
+
+    update perf examples
+
+commit 313048a2a2d2f5a5f0207af36b53551dc5774949
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Oct 1 08:41:46 2015 +0800
+
+    update perf examples
+
+commit 7dd1d0a514fd1077810f0e26be64608650906954
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 23:45:00 2015 +0800
+
+    add perf examples
+
+commit c88604c6905176f2ca35b18783befc3cf98e157b
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 23:44:17 2015 +0800
+
+    add perf examples
+
+commit 1547b8f17171a8e2b3dec42f5522a390fd6e9b1e
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 23:40:32 2015 +0800
+
+    add perf examples
+
+commit 5cbe57ebb72aa62d74e35dd28ac0a15a904cd2d4
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 23:31:02 2015 +0800
+
+    add perf examples
+
+commit 9b5ea07885e8acbc5719e35532710d7013658db2
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 23:28:44 2015 +0800
+
+    add perf examples
+
+commit 26fb486915789071e4b4873b83bda4c6fe3b9bc9
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 19:59:43 2015 +0800
+
+    fix Log4j missing configuration causing accept failure
+
+commit 24346aebeb9b6972849544bb29d807e717890088
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 30 19:04:52 2015 +0800
+
+    update examples
+
+commit 9cf42ae09579e417fc85e107334ec09f16966739
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 29 21:56:06 2015 +0800
+
+    update net exmaples
+
+commit a29272ed99a8f21ec19a14b403ebee53a385e9a4
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 29 20:16:51 2015 +0800
+
+    add simple tcp proxy example
+
+commit 6d322c29aabc3eebfc18ce6a7aaf77d6fd075b56
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 29 00:01:01 2015 +0800
+
+    update doc
+
+commit 9483bcdfb9d572e2a8df607fd19f5f74c48de130
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 21:32:19 2015 +0800
+
+    update release
+
+commit 3b9be9f68e937a885766eee03739fe17a74b1c17
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 21:31:01 2015 +0800
+
+    NetKit.getLocalIp preference by populated order
+
+commit f9d83ed029ca9a551aaf124a94bdb5fc783022d1
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 21:20:21 2015 +0800
+
+    update release
+
+commit 3f3f1ed0978f4a6a792710ae94bfc43b1650c9b5
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 15:44:27 2015 +0800
+
+    fix NetKit.getLocalIp NullPointerException
+
+commit cb0c524366023396a21380ba3731371a9fda7c8d
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 14:23:46 2015 +0800
+
+    RpcInvoker add two more invokeSync methods
+
+commit a490a0d3f1b051db8e02d205701a6671033da9cd
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 14:05:42 2015 +0800
+
+    update test examples
+
+commit 2a796e41be35a4ceab403bce621d26bab1b982be
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 10:50:30 2015 +0800
+
+    NetKit.getLocalIp returns public IP for preference
+
+commit 631d9477730f66c9eb2035bbf6aa23afc3bb9a3d
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 28 10:44:29 2015 +0800
+
+    NetKit.getLocalIp returns public IP for preference
+
+commit f27779329ab4f5a25d270cdeb30d025581ea04eb
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 27 23:25:44 2015 +0800
+
+    add todo list
+
+commit 9947f4982e1396b6729bb2ee8a13b99649a9bd4e
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 27 18:43:36 2015 +0800
+
+    net.Client.close refined
+
+commit c39e94fcf13798749bae6d48f36732dcb2a25bde
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 26 21:30:43 2015 +0800
+
+    remove guosen stuff
+
+commit ea525c12e6ff4abff6b3f114e527d6f15ce49fb4
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 25 20:26:18 2015 +0800
+
+    update examples
+
+commit 36ce49d74a419f81a3c46672108870fbec49cff8
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 24 16:21:52 2015 +0800
+
+    add guoxin trade examples
+
+commit 6385200abd0b0d9393250b05d7221b5ce2e9e6e9
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 21 09:16:24 2015 +0800
+
+    add 6.2.0 release changelog, and bump to 6.3.0
+
+commit a1bd40a1d4d22f77ef6f5da1932c9c7b9333296c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 20 18:15:52 2015 +0800
+
+    release 6.2.0 :)
+
+commit 9fb0470572fe666f452080840dfdcab7f94c6c00
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 20 18:14:18 2015 +0800
+
+    release 6.2.0 :)
+
+commit 284f08b094de973581633f45977ab96356c6fe7e
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 20 17:34:03 2015 +0800
+
+    clean and prepare for 6.2.0 release
+
+commit 409bf86b7a224513fe224557051a0b756a06d05c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 20 11:35:43 2015 +0800
+
+    update Spring examples
+
+commit 795f498e647c78bb87c09501bfc4f3956181c299
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 19 12:50:13 2015 +0800
+
+    Update MqServer to disable Thrift by default
+
+commit 36e2a46249b83f4c66c206d870d2bd31ba6830f6
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 19 10:37:55 2015 +0800
+
+    Add Raw Http client access examples
+
+commit 178b6c7a2dccd299bb2b47cb74964addc7573cfa
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 18 14:56:26 2015 +0800
+
+    zbus monitor print server address
+
+commit 30f0ae63889cfb8cf059eaf0ee19c8eb81414944
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 18 13:36:48 2015 +0800
+
+    add Mq Service invoker example
+
+commit 4d944d2ad07ff2a8757a37dd9e3fc0e43fed14af
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 18 13:29:50 2015 +0800
+
+    add Mq Service invoker example
+
+commit eca9d14b0ee24e7b7a0ff593e3e9a2b179eab0e5
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 17 11:19:33 2015 +0800
+
+    Add console MQ created report info
+
+commit d0fd8a2123fdd5aef98f742b6a2d197645fae1d0
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 17 10:52:31 2015 +0800
+
+    update release
+
+commit 3e739b92d179dfd4616a6b2294192c0a6e2a6e06
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 17 10:49:46 2015 +0800
+
+    add doc
+
+commit 847b935071067f57c86e2edef2b332bc08897529
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 16 21:57:20 2015 +0800
+
+    Message add setBody(string, encoding) support
+
+commit a926d375e7f91ec33b5132a0268d80e07db0c5ea
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 16 21:25:27 2015 +0800
+
+    update proxy
+
+commit 7ba65cf9b44ca1df0f4308a51f7a9a6d5b24b0f1
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 16 11:21:14 2015 +0800
+
+    examples: separate pubsub from mq
+
+commit baf91616bf5bdbb45b08beae5c20aac391e835ca
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 16 10:45:39 2015 +0800
+
+    remove HttpProxy
+
+commit be8148fcd02e9273a05600f817d2e95031676f19
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 15 21:56:28 2015 +0800
+
+    Add event handlers for TrackSub
+
+commit f2c069e4df44d5ab52c4b2e0205d6ab3ab270ac3
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 15 13:05:26 2015 +0800
+
+    fix typo
+
+commit 21ecacca18d123b59e174daed6dde1ae548cb046
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 14 22:28:07 2015 +0800
+
+    add onSessionToDestroy to IoAdaptor
+
+commit c6b67e2c07808717c1e76491354f87af38b8ea9d
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 14 15:58:04 2015 +0800
+
+    update proxy shell/bat
+
+commit acd57a602b326273014c434372a56c145fa0a442
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 14 15:49:17 2015 +0800
+
+    update proxy shell/bat
+
+commit 671c8eccf3cfb21f6fe5419793469a193c3322df
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 14 15:39:19 2015 +0800
+
+    Add Disconnected event support
+
+commit 72d7e7e7a5575d231d4b3a0da18c72cfafa4161f
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 14 15:34:05 2015 +0800
+
+    Add Disconnected event support
+
+commit 886e59403de8632bc6f4525dcf594b1f49eaa5d5
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 14 11:14:21 2015 +0800
+
+    add identifier for Server.registerAdaptor
+
+commit 96cc27b92523580f71f9042acc7b7a1034762611
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 12 10:33:02 2015 +0800
+
+    Add Thrift protocol support without any dependency
+
+commit d2b64779100342c6e080ede25d64500a9ee4c268
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 12 09:54:43 2015 +0800
+
+    Add Thrift protocol support without any dependency
+
+commit 97ccc99f30265e282c68c52590c41d92d6e1fdcc
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 11 21:48:32 2015 +0800
+
+    update zbus.bat
+
+commit bb32a841274a0c1018fbe966c26fc5e1d9a4e859
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 11 13:24:07 2015 +0800
+
+    RPC support more invoke methods including asychronous methods
+
+commit bbf0a4cbc6a2584dcdd3c63e860a58bd1db9215f
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 11 13:22:42 2015 +0800
+
+    RPC support more invoke methods including asychronous methods
+
+commit 5d155c1385c5b35c10a5741486dfe21413aa516f
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 11 09:42:26 2015 +0800
+
+    RPC support more invoke methods including asychronous methods
+
+commit 68cbc06719ef444ab5511ad43d76639b4105da6e
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 9 18:44:27 2015 +0800
+
+    IoBuffer toString display details
+
+commit effdcad7223cf12aa4384a1e09916f73cdceb713
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 9 11:03:46 2015 +0800
+
+    Fix Request.setParamTypes fastjson
+
+commit 50078c16b3801417ed7ec2d2d0ab965e25c6480d
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 8 23:07:00 2015 +0800
+
+    MqServer's MqAdaptor separated from server
+
+commit cd3952d856cfcbda42ad8c85efaf1208ca664fa8
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 8 21:09:16 2015 +0800
+
+    MqServer's MqAdaptor separated from server
+
+commit 42c8e19fc6f3197106b30360e1e892d011069940
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 8 20:55:08 2015 +0800
+
+    MqServer's MqAdaptor separated from server
+
+commit a1c7bbdc89199f4c0d99df96999451d3ff110920
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 8 20:00:46 2015 +0800
+
+    net.Server add multiple Adaptors support
+
+commit b00f9085c549796d0c427f61fd2ace2a53bf0f9e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 8 17:01:33 2015 +0800
+
+    Make MqAaptor plugable
+
+commit 2a7288cd596719c4accd03e2140b2e09633f233a
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 8 10:45:43 2015 +0800
+
+    Remove warning for proxy servers @lifei_osc
+
+commit 1675556210eba3c9a17acd3dcd7a4c683c92278a
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 7 10:57:25 2015 +0800
+
+    update introduction doc
+
+commit 125b7d479c9f643ffa062ad90ca7317bb0998d23
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Sep 7 09:41:32 2015 +0800
+
+    Remove fastjson dependency for HA
+
+commit cb9ff02f240c9893133dee8dfaf0746b00e1080c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 6 10:58:13 2015 +0800
+
+    Consumer refine start/stop semantics
+
+commit 8be62f95c786255b37250806290fa558517569b0
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 6 10:52:02 2015 +0800
+
+    Consumer refine start/stop semantics
+
+commit ff00901a1d4e84dc2d12080ec1590984ec53047a
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 6 10:51:10 2015 +0800
+
+    Consumer refine start/stop semantics
+
+commit 157eed324b9c1456eb64f3fd820f3b949be6b104
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 6 10:47:08 2015 +0800
+
+    Consumer refine start/stop semantics
+
+commit a571d84931865bdec3e781ee1be776b6dca70983
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 6 10:26:37 2015 +0800
+
+    refine json
+
+commit 8ef368e461c6082b5da8fc8b770a63717b02a2e2
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 6 09:09:13 2015 +0800
+
+    Fix consumer exception logging
+
+commit 1bbf41e9b7f877f3a353a0d938862b4ad6372c61
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 5 23:26:29 2015 +0800
+
+    refine kit package
+
+commit e9c16fe882fe5125a9741426d88f72e46e503b33
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 5 18:30:58 2015 +0800
+
+    refine json interface
+
+commit 0a87cfaaaf7f0e21c186854c67f45e07fbc3b484
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 5 09:55:36 2015 +0800
+
+    refine org.zbus.kit.log.impl package
+
+commit 7d9023b449d78f6c5ec3e1849a55147d87049a65
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 5 09:42:18 2015 +0800
+
+    Update Java Doc
+
+commit 8685ef0f9f3fdef7967afc1c16aba60833a37876
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 5 09:26:56 2015 +0800
+
+    Pool type default to Commons-pool2
+
+commit a99b803e77cfae557dc044ef62d6d7b4d6121c96
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Sep 5 00:12:18 2015 +0800
+
+    refine kit package
+
+commit f3f95f3c0804e1ea785fdfab4a163e0517b4a509
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 4 14:58:24 2015 +0800
+
+    refine RPC examples
+
+commit 098b47b6f79a1c1ac6757eb3a76b7ec4a5c2b64e
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 4 14:54:15 2015 +0800
+
+    refine RPC examples
+
+commit 3add9d75abeebb4791de53ac960cf798754f7ee4
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 4 12:37:43 2015 +0800
+
+    Update Readme
+
+commit 40204cd28ee1591b507e534606b2d7a1c9b340f0
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 4 11:35:05 2015 +0800
+
+    Update test examples
+
+commit 76e7433b8c247536513f1bcdc85cb422f5deadfe
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Sep 4 11:07:32 2015 +0800
+
+    Update test examples
+
+commit 4507ab4802f4bab35fb93350967bc450d245ab9c
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 3 23:20:10 2015 +0800
+
+    MqServer.main del default HA startup
+
+commit adee59f62ab1b85a36aa41fbb0ff800d9eae244b
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 3 22:48:56 2015 +0800
+
+    Consumer add onMessageSingleThreaded
+
+commit 15e5746b27976a919b23d9e6a4fde0ca180bf827
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 3 22:47:31 2015 +0800
+
+    Consumer add onMessageSingleThreaded
+
+commit f2d987f5214efd557dff03ba50698cc52203042c
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 3 22:26:12 2015 +0800
+
+    add Sync Consumer example
+
+commit 4bcfa4578cbd30d2e9d58d693718d146e68db82c
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 3 00:33:14 2015 +0800
+
+    update HA examples
+
+commit 3ae3f50cec85055414544084508c4f4e247e91c6
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 3 00:21:20 2015 +0800
+
+    update HA examples
+
+commit 4600b796a57d6f73c8b3ba8bc9f9b1bf364dff27
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 19:00:10 2015 +0800
+
+    Direct RPC add HA support
+
+commit 06eba2b53cee42d603d276c5fd217ffd8ce8cc6e
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 16:14:45 2015 +0800
+
+    update Broker model and HA
+
+commit 6c706c722d9d50fcaba4c910cd01fc3c1a56d163
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 15:29:32 2015 +0800
+
+    HA Release Candidate
+
+commit 610b0fd899b77764a76b47bfe12f3011b915df95
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 15:29:08 2015 +0800
+
+    HA Release Candidate
+
+commit 5a97e0e23690675128eadea83e856b2bfe788e66
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 14:37:58 2015 +0800
+
+    TrackSub add empty broker support
+
+commit 8c0a988bd49406b7b23025deefc15428f1a4b1d2
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 14:37:05 2015 +0800
+
+    TrackSub add empty broker support
+
+commit 697dff5ab44243f16fcafb941bd171632bc6ff49
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 13:49:03 2015 +0800
+
+    add HA BAT
+
+commit ecd2be49e75fabc065ef8668f1f104d2b2e62008
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 13:08:46 2015 +0800
+
+    BrokerException became subclass of IOException
+
+commit 484513ddaf568f98bf70062673be9433a8fe82cf
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 13:02:19 2015 +0800
+
+    Update HA examples
+
+commit 3a92d13a8178db2c29f8b29e9a9cb9e6da6c781d
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 2 11:25:44 2015 +0800
+
+    tuning HA sensitivity
+
+commit f7ae6e6bcafd8a835e33b54770bf66dae7c9cc2b
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 1 23:24:46 2015 +0800
+
+    update HA broker selector algorithm
+
+commit 1d213161c6980dfef98203935e1b93d47f93530d
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 1 18:54:40 2015 +0800
+
+    update HA server sort algorithm
+
+commit c87232a93b2c3ad2f2bf4f7cc60011a6fa730d55
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 1 10:05:03 2015 +0800
+
+    Make MqServer shutdown gracefully
+
+commit 74bc34030833f250a7cc7be33d975647fe3607c5
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 31 16:43:34 2015 +0800
+
+    Add MQ instant status notification for HA
+
+commit a4c643260edbb15feec63d97f548484571190b86
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 31 13:12:09 2015 +0800
+
+    Update HA release
+
+commit f8df7cd5026b229600476cfccefe6454883a8d68
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 31 10:42:34 2015 +0800
+
+    Update HA release
+
+commit 3f0130783207c1623df4b557e2efcab90dd963c3
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 23:05:12 2015 +0800
+
+    fix HaServerEntrySet removeServer
+
+commit 03a4c0559d017d5edf7b8b01545b48000839ff27
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 23:05:00 2015 +0800
+
+    fix HaServerEntrySet removeServer
+
+commit 905e72e086dc6bc227ceee6b13b6d23f822cfc90
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 22:41:13 2015 +0800
+
+    Fix ServerEntry threadsafety, add Pub HA example
+
+commit e077802d34d56916a109100eba2664fad271c955
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 22:39:11 2015 +0800
+
+    Fix ServerEntry threadsafety, add Pub HA example
+
+commit 79d0ecad7019f651537d36ce3e2f9ae6e643a182
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 22:19:15 2015 +0800
+
+    add HA example
+
+commit 0bfae0cfd59a80edb0083dfae3ca9c2e54d5aec3
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 20:03:38 2015 +0800
+
+    update Broker model and HA
+
+commit c5000ecdeadd9911be85486665a3b7df6fb2a62c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 16:38:24 2015 +0800
+
+    update Broker model
+
+commit 7db4f1041463015d314ed3b9c397d3d0ac377e60
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 16:02:15 2015 +0800
+
+    update Broker model
+
+commit 73af93b1b87cca537b1335617cf725af56962143
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 30 13:19:02 2015 +0800
+
+    update Broker model
+
+commit 6b0e3294eec024838281133f29e86cadc8828936
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 29 23:54:15 2015 +0800
+
+    update HA TrackServer
+
+commit bb177d5b6d645fa29c741ebe76be64f027957e24
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 29 22:05:18 2015 +0800
+
+    update HA TrackPub & TrackSub
+
+commit e84ae5c3c51adcd0946282c9df76233d8ac067e1
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 29 16:31:00 2015 +0800
+
+    update HaCommand
+
+commit e54100e1c914e945e91bb6390ac3d609663127ff
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 29 14:55:28 2015 +0800
+
+    update TrackPub & TrackSub
+
+commit 59223e065b78917440699aedbf3638bef544b84e
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 29 08:09:06 2015 +0800
+
+    Change ServerAdaptor to Server naming
+
+commit 48d1898215b0308c189583085b8b6d9ad771e908
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 29 07:50:56 2015 +0800
+
+    Change ServerAdaptor to Server naming
+
+commit f73c448cd58454817c057f44c0374d449042fe4a
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 28 22:49:06 2015 +0800
+
+    update HA TrackClient
+
+commit 63f67e5ce7f608605edf91c53693c03a5fb75b81
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 22:30:40 2015 +0800
+
+    update HA
+
+commit 1c4dd981fc5e64a1410c22ca793494a011bd4c11
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 17:06:22 2015 +0800
+
+    refine interfaces structure
+
+commit 0d21f26eec5c58812ac4c9bdb4299c37ef101678
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 17:04:39 2015 +0800
+
+    refine interfaces structure
+
+commit bcef60b055193040bfc0f15358cf189cb2f02d79
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 16:59:01 2015 +0800
+
+    refine interfaces structure
+
+commit 309d7f257d5af9e150e7f3eb63e6dce06e8a3077
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 16:45:59 2015 +0800
+
+    refine interfaces structure
+
+commit bc89d684c3dc18a001b88d8b7b2215ba5407db1f
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 15:24:01 2015 +0800
+
+    fix 404 ack instantly
+
+commit a0cd987eb3cb8fee6a67a6576e0c61cfcc2b405c
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 27 15:13:15 2015 +0800
+
+    update HA refine
+
+commit 3609d4cf9f550da9f17a578b889c37d4332cc487
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 26 15:59:22 2015 +0800
+
+    update spring examples
+
+commit fe5c8d933fcaa63b09cfe79933511ad4a346865c
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 26 13:02:14 2015 +0800
+
+    refine HA broker
+
+commit ae5bfdd207089b0e8bf1b8a9dc489caf2ba49648
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 25 23:17:00 2015 +0800
+
+    refine HA
+
+commit b79b8030e07a1f1b1aab83a420ff7652a7d2c06d
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 25 10:33:59 2015 +0800
+
+    update release
+
+commit d6c465f6ed023d04c46f86608310ac9dbe457e79
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 22:56:36 2015 +0800
+
+    refine broker model and rpc model
+
+commit 82ae8b51dd23b6fc4867db712009c8128ec58256
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 22:54:41 2015 +0800
+
+    refine broker model and rpc model
+
+commit 7a3873529567f73441f0f18212bb217c640052d5
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 22:54:34 2015 +0800
+
+    refine broker model and rpc model
+
+commit e474447b1eb7c85d5533b7a6e70902e34b46eb39
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 22:43:18 2015 +0800
+
+    refine broker model and rpc model
+
+commit 7ef2c41c7fd7bcc1f68bbc3adc11a042296be53e
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 22:40:44 2015 +0800
+
+    refine broker model and rpc model
+
+commit 600709d9207bd38006eeb2e7de843ac8f73b004c
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 21:27:32 2015 +0800
+
+    refine broker model
+
+commit b0b53d77194baee77310f25131ae10f225874616
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 21:11:45 2015 +0800
+
+    refine broker model
+
+commit a49c184bd715811c79ae1854a3319ea160131f4d
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 24 14:56:46 2015 +0800
+
+    Direct RPC defalut return status 200
+
+commit 7538a6fd262164e316c2b8200a985ddd73332ef6
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 22:20:46 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit b1216a6cba1c890b33d9bd15ada56570700d1e5e
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 21:25:32 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit 07219fe50f91c63490ec9b0e31ed90479f46cce2
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 19:10:27 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit 4e5e75dd6f7b1348a602442e6a2dc66bf9ecbeb2
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 19:09:54 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit 6a48e2fedb806eaae5e9498d64c6873f694170b8
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 17:58:17 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit f2f96792d13c8a93dfedbbbbca56c0f7b6a8451d
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 17:54:29 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit 37c71f309380c9ed6797a3a4cf8daf5545dff002
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 23 17:15:11 2015 +0800
+
+    refine RPC to: Broker based or Direct RPC
+
+commit 20a9ac32d07c63deb4bdda93d9bdacbb0d30fd77
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 22 10:31:57 2015 +0800
+
+    Add clean service for MQ backup files
+
+commit 52c861e53b7926248b8e3dd2ca762bcb157cd687
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 21 11:13:25 2015 +0800
+
+    Fix bug for PubSub server distribution thanks @lifei_osc
+
+commit 6f26c5c36b6e2f0cf7efaa262756685dc22b220c
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 21 09:36:54 2015 +0800
+
+    update doc
+
+commit 2cbe354fd1e5569f4134221c8359586207b1f9bf
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 21 08:33:22 2015 +0800
+
+    update PubSub test
+
+commit ab4f24a934fa3dcf6311fac1799817a78fbf0cee
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 20 14:33:30 2015 +0800
+
+    update maven zbus-6.2.0-SNAPSHOT
+
+commit f7ee8ab410ca6ef26ef3b86983daefd0d19f06c8
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 20 13:32:04 2015 +0800
+
+    fix 404 in Readme
+
+commit ea80a67d2862c71e58c1b0dafd829b28c702ea7a
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 19 14:17:32 2015 +0800
+
+    update HTTP Message
+
+commit 96a1d09df413ef73ee0600d53e671a3eb18416c5
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 19 14:15:51 2015 +0800
+
+    update HTTP Message
+
+commit c771d34c87913a76f0aeceae26500535bb0a8140
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 19 11:23:11 2015 +0800
+
+    update HTTP Message
+
+commit a08bafa198cf8a4e37c7fa0ae5a12470ce6cf9e0
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 19 11:21:39 2015 +0800
+
+    update HTTP Message
+
+commit fc72e6d22cf41a528f36a2376e1faddd737076ce
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 19 10:07:34 2015 +0800
+
+    update HTTP Message
+
+commit 506f9a3c8f64d2c6f61d77104676c4bd4a9900d3
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 18 16:54:32 2015 +0800
+
+    update dist
+
+commit 399902135abd94258e3ee5091c598373e0239876
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 18 16:06:01 2015 +0800
+
+    update readme
+
+commit 8870a3502795ac7d818e7244fa1c16582b26bf32
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 18 16:02:03 2015 +0800
+
+    add zbus.sh
+
+commit 6a7287c7ca661a1fdf0fed8d884c0eae4a7c4fb3
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 18 15:49:09 2015 +0800
+
+    bump to 6.2.0
+
+commit e507772b19d6cfee56d1acea1efcd54f4aac0329
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 18 15:31:03 2015 +0800
+
+    bumpt to 6.2.0
+
+commit d56160242f22ca45fc14d6a18e9f99ce3663cbde
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 11 13:25:18 2015 +0800
+
+    release 6.1.0
+
+commit a1424fdb9db7caecf922faa1224670543224f518
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 11 13:23:01 2015 +0800
+
+    release 6.1.0
+
+commit 2e70c252b536f03527f257fbc7cd13abe73f165b
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 11 12:53:56 2015 +0800
+
+    Fix bug of Rpc to support any inheritation
+
+commit d2037058522f0a5c4183f956407bfb9321312961
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 11 12:48:53 2015 +0800
+
+    Fix bug of Rpc to support any inheritation
+
+commit b949c1909b34eae4a575f69458a27a9aee64d84a
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 31 09:42:45 2015 +0800
+
+    remove slf4j
+
+commit c8c626113918e1b8ae959d6a23519fb37cd22898
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 31 09:38:53 2015 +0800
+
+    remove slf4j
+
+commit 160c47f0702ba86b221d9efd858ce86c52bd6a1c
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jul 20 18:53:20 2015 +0800
+
+    test MFQ
+
+commit aa7437a42133e6be6c0f77d49a917d35eb47dfdf
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jul 20 18:51:03 2015 +0800
+
+    test MFQ
+
+commit b42515d1ca4404a4fddd7984b522d93815c42c79
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jul 4 09:59:24 2015 +0800
+
+    gracefully shutdown zbus @lifei_osc
+
+commit dcfa8f1fe0a23b1a15d61f29ef821c35fa43d6b3
+Merge: 616d7b3 278f379
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jul 4 09:28:49 2015 +0800
+
+    Merge pull request !4945 from 玛雅牛/master
+
+commit 616d7b319463789371e5e77c6998fa5c3d090ab8
+Merge: f74428f 9a1fef1
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 3 09:29:07 2015 +0800
+
+    Merge branch 'master' of https://git.oschina.net/rushmore/zbus
+
+commit f74428ff601ea6f00a1739ae4e3a15fba50c95ff
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 3 09:28:25 2015 +0800
+
+    merge pull request from @lifei_osc
+
+commit 9a1fef1e338b9e02afb2a17ae580ce5c601f8b63
+Merge: 6e6d61c 278f379
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 3 09:25:43 2015 +0800
+
+    Merge pull request !4945 from 玛雅牛/master
+
+commit 6e6d61c80152cf0ef317f911d8dc24082a0e8f01
+Merge: 9ba64a7 278f379
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 3 09:24:53 2015 +0800
+
+    merge pull request from @lifei_osc
+
+commit 9ba64a73b0851b06f7e46e57d09e864d23b8a32e
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jul 3 08:59:07 2015 +0800
+
+    MessageStoreSql remove broker prefix, zbus start after messages loaded
+
+commit 278f3795be3f3da9fac8b09eabac913d1031ec08
+Author: 李飞 <lifei@wellbole.com>
+Date:   Fri Jul 3 01:30:43 2015 +0800
+
+    优化了错误提示信息
+
+commit 30b1a7f1287daac7bba2dab411e1320296a3ff22
+Author: 李飞 <lifei@wellbole.com>
+Date:   Fri Jul 3 01:28:46 2015 +0800
+
+    优化了错误提示信息
+
+commit 21cb428ea7b6590d984fbd4e278735be66a2f705
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jul 2 14:08:58 2015 +0800
+
+    refine merged code from PullRequest
+
+commit d0cb57031cb1656653463fff12914e8b248dc715
+Merge: ceb10c8 faf6224
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jul 2 14:07:52 2015 +0800
+
+    refine merged code from PullRequest
+
+commit ceb10c8a2ec37c3cf699d51329790582a2084971
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jul 2 14:02:50 2015 +0800
+
+    refine merged code from PullRequest
+
+commit faf6224accfc304863c86ef04ac1558c833a8c30
+Merge: a45f827 e765d6f
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jul 2 12:28:30 2015 +0800
+
+    Merge pull request !4761 from 玛雅牛/master
+
+commit a45f8275981877603d73f373c896450f71b0aaf2
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 16:08:23 2015 +0800
+
+    update doc
+
+commit 5b429d4109bd3c5835cd5124b2fbea1ca474f347
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 16:05:00 2015 +0800
+
+    update doc
+
+commit 813aad4cff3439427c12504b6ad36ec8c2fd9e7c
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:37:35 2015 +0800
+
+    update doc
+
+commit 9473c1b43089291e385b15eb3deaa32f7277a428
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:31:34 2015 +0800
+
+    update doc
+
+commit 76300e4f95ea897ddcdbc1ae866a3c6ee51f820e
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:29:51 2015 +0800
+
+    update doc
+
+commit 65f7ab070d54a4e74b30d47631eaa899597b64c9
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:26:51 2015 +0800
+
+    update doc
+
+commit 93715452a9a17a875569d862348f7d381f52b80b
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:23:53 2015 +0800
+
+    update doc
+
+commit 6cf43de8393d52ebb84c500c69cdd2ef40b9e716
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:14:21 2015 +0800
+
+    update doc
+
+commit 3b5c5a7c8087f3d4407fa39e44d79d82145ae22e
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:11:35 2015 +0800
+
+    update doc
+
+commit 06bac512237f2c14c2f5a2949497325a2cec53c2
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:06:56 2015 +0800
+
+    update doc
+
+commit 4e27da6498cf5a8bb8274ee876de7e02e98b1012
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 14:01:11 2015 +0800
+
+    update doc
+
+commit e7e8b62364bc3d8b304992a48773eaf556527264
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 13:59:09 2015 +0800
+
+    update doc
+
+commit dcc7b49dc37a8ef4d01e9430d13f31cddcc0aa34
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 13:56:58 2015 +0800
+
+    update doc
+
+commit 6254b03ea3ea89fcdcf03c1f9a968bb413f6ab08
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 13:47:49 2015 +0800
+
+    update doc
+
+commit 39009517e879d595007fe3c1938b14d113eeddc7
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jul 1 08:27:12 2015 +0800
+
+    update doc
+
+commit e765d6ff31f322df266cffb7ff531f0f75cded13
+Author: 李飞 <lifei@wellbole.com>
+Date:   Tue Jun 30 03:07:04 2015 +0800
+
+    增加seq递增序列，更新sql存储实现，可以使用外部存储实现
+
+commit 02d0ef7d2f8a1dfbaeec82b634fc9679bf8d03d2
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jun 29 15:21:14 2015 +0800
+
+    znet bump to 6.1.0-SNAPSHOT
+
+commit 41a8e1a0a676842fbcbf14753bf4de837771178e
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jun 29 15:19:27 2015 +0800
+
+    znet bump to 6.1.0-SNAPSHOT
+
+commit 8821add6fc0aa14973371d295b1e4a35e2b7e806
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jun 28 08:44:07 2015 +0800
+
+    update doc
+
+commit 6c833a875c102b5f5467ce64d51f4e52cc8b9cc3
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jun 28 08:20:12 2015 +0800
+
+    update doc
+
+commit 0a1ba617727ff864a5294ff286774f59ddc9f08c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jun 28 08:18:54 2015 +0800
+
+    update doc
+
+commit 0faa7f4504b6da7597c7b3ea5d291089e4d3db52
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jun 28 08:13:08 2015 +0800
+
+    update doc
+
+commit 1d63ce384d562fd9d0a8f07d64399d7fbfa15e2d
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jun 28 08:12:26 2015 +0800
+
+    update doc
+
+commit f15235a43d905bb227c43bcd3111249072aee3a0
+Merge: 9ec4752 f051dad
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jun 27 18:57:14 2015 +0800
+
+    Merge branch 'master' of https://git.oschina.net/rushmore/zbus
+
+commit 9ec4752f884e23051bb54a31f91da314f5bc3a76
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jun 27 18:55:55 2015 +0800
+
+    update producer example
+
+commit f051dad08b14968fc1eececab0deb0784974aff4
+Author: unknown <44194462@qq.com>
+Date:   Fri Jun 26 17:05:04 2015 +0800
+
+    update readme
+
+commit a82e8a4d0752428a55b9b8ed27b02ab6abf56d1b
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jun 24 17:55:11 2015 +0800
+
+    ZbusServer support listen to specific IP
+
+commit 87be8c97aef0cba55367efbecd2e5404dbc22188
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Jun 23 19:32:53 2015 +0800
+
+    ha test update
+
+commit 80c90b81a411b99aad0d5a2874b958f46301489e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Jun 23 19:28:39 2015 +0800
+
+    ha test update
+
+commit f424c6571a9217d0eef06f96399afbd16e32ff38
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jun 21 21:52:42 2015 +0800
+
+    fix Bug: TrackAgent ignoring trackServerList, Consumer onMessage support multi-entry mode
+
+commit cec616ea7d37edcf7e6efee4cccedc73935e9d83
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jun 19 22:00:42 2015 +0800
+
+    update readme
+
+commit c51f85cd793489821b3f1a4620312704b586df8b
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jun 19 21:58:05 2015 +0800
+
+    Update URL
+
+commit ee849abaeba80d635c877227067fd142e2e81f16
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jun 19 21:50:55 2015 +0800
+
+    add protocol.md
+
+commit 799e54e060ef8b20fbe501ef8c1540d4759bcb54
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jun 19 16:53:47 2015 +0800
+
+    ServiceConfig add default Ctor for Spring
+
+commit a8b24ffa564dac6f3d904523d0dcffb49500df9c
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 18 17:01:02 2015 +0800
+
+    Rpc timeout dump detailed message
+
+commit 555eae67f47405232fdd1947c0d4721e525e3b3e
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 18 17:00:13 2015 +0800
+
+    Rpc timeout dump detailed message
+
+commit 6034d27de5c44f2b45a5ab8e8cc8709828db7997
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 18 14:10:27 2015 +0800
+
+    Rpc timeout dump detailed message
+
+commit 8dfe3308b1e927dc557451fa83ae79aef17e938e
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 18 14:09:46 2015 +0800
+
+    Rpc timeout dump detailed message
+
+commit be063b1902a76434f58ffed31237100ab9d5efa8
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 18 13:54:38 2015 +0800
+
+    add Performance test code
+
+commit 3408318d200daf10e0ec89daeb2244acfafe1772
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 18 10:39:02 2015 +0800
+
+    updated for guosen
+
+commit e41a6bc87e54e2c59a90dab84497fb8a51f74dcc
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jun 17 15:42:12 2015 +0800
+
+    update readme
+
+commit 148822b140ca4ddbc4ed8c0ac5910104c819673f
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Jun 16 23:50:46 2015 +0800
+
+    add multi zbus borker support for Rpc service
+
+commit 43689559c12390770b74c0b75df87b7863c1fd7e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Jun 16 23:49:14 2015 +0800
+
+    add multi zbus borker support for Rpc service
+
+commit 57a61a1e1fdef0764caee78f0ccbca332d1fb6c5
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Jun 16 21:04:59 2015 +0800
+
+    add multi zbus borker support for Rpc service
+
+commit 26182009718cd6611bbf3fd1c34af86a74c2cca1
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Jun 16 14:22:16 2015 +0800
+
+    add snapshot support to pom.xml
+
+commit 5da06fc1640caa868cbf905d66f94ca4ee82d665
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jun 15 11:34:36 2015 +0800
+
+    RPC timeout add MQ info
+
+commit a2d1c2210fd445a9093116c053843de55431ca41
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jun 15 11:22:23 2015 +0800
+
+    RPC timeout add MQ info
+
+commit a8a487dfa1e2d923e3369134b785752de3a4d8b3
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jun 11 11:21:23 2015 +0800
+
+    RpcServiceHandler use async mode to execute biz
+
+commit 17a5c93c0f5a76a1875dc22319bed0bdadc7b2ad
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jun 10 21:42:28 2015 +0800
+
+    Rpc add parameter Enum type support
+
+commit a8d0b679d1eca67ae25d91fb354ac7c363bd3b4c
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jun 10 21:41:50 2015 +0800
+
+    Rpc add parameter Enum type support
+
+commit 5ce276f18c3ab698ab9cc1147fc611853b579988
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jun 10 11:04:19 2015 +0800
+
+    JsonCodec.normalize support missing @type instance
+
+commit f9016f7efa8fff4876e78f0d131ee6107a60996b
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jun 1 11:10:57 2015 +0800
+
+    fix typo error for RpcProxy @Webit
+
+commit 86db9c0544a453bc109f624f44b2f6e1167dd002
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat May 30 21:52:54 2015 +0800
+
+    support MQInfo query
+
+commit b1b8defecbde2d2117a53f18ee943c734839ed6c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat May 30 21:50:44 2015 +0800
+
+    support MQInfo query
+
+commit 5fc6e180460a7d370152f00ed9352631eb54d736
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat May 30 21:50:33 2015 +0800
+
+    support MQInfo query
+
+commit 8592d23d550567035ddd48f40e768b5021ac4d7c
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri May 29 08:58:01 2015 +0800
+
+    MessageStoreSql sql user name bug fix
+
+commit 0259ae3bc008811f989428621241634c8043dbca
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri May 29 08:43:25 2015 +0800
+
+    MessageStoreSql sql user name bug fix
+
+commit d613c89411eae6e653bb79fbce2057d9222292f9
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu May 28 10:28:53 2015 +0800
+
+    release 6.0.0
+
+commit 9cafe2e9e80952b5a0d4bc125fdc25ccfb488e90
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue May 26 14:35:18 2015 +0800
+
+    update RpcProxy
+
+commit 954e7ff4b1365f7b09b3e5b0ae14f3d0123f310b
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue May 26 14:14:48 2015 +0800
+
+    update RpcProxy
+
+commit ddf3f10f3f7234e132384393a8b8d6080eb83b6a
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon May 25 09:03:45 2015 +0800
+
+    update release
+
+commit 0aac31d0f64b68f7a067bc59b5f442b77af604d4
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri May 22 17:33:07 2015 +0800
+
+    add close method for Service
+
+commit efed66b5ace5edac0f8c22e38995d7d8569e4859
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun May 17 13:54:48 2015 +0800
+
+    update readme
+
+commit bbf482938bf3391dea6ce269fd613a75d990227c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun May 17 13:52:38 2015 +0800
+
+    update readme
+
+commit 2b269620345873c581f27f93c4a1306ffcf1da13
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun May 17 13:48:29 2015 +0800
+
+    update readme
+
+commit e59220d6fdab904a9789d30f3e5da0e5b48eb0da
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun May 17 13:45:52 2015 +0800
+
+    update readme
+
+commit dad2b42acd237a5165e386e00f60d1ed2cb793f3
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun May 17 13:30:10 2015 +0800
+
+    separate api&proxy from zbus main project
+
+commit 998440c25cf9f980b4a77df6dfffb0a5f86753b5
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat May 16 23:19:35 2015 +0800
+
+    update C api and proxy
+
+commit f2e681244779a887db36931bb52326aab8456de3
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat May 16 13:39:07 2015 +0800
+
+    update zbus-msmq to multi-zbus broker
+
+commit e9370487ff13921ae2861bf61035c156d30d3e81
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat May 16 13:37:04 2015 +0800
+
+    update zbus-api-c
+
+commit a8080b34af0293c7c79b0dc7c674927051995fcb
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri May 15 16:54:29 2015 +0800
+
+    zbus-msmq support multi-zbus brokers
+
+commit 451865e421be71da228d912d75ca0cf1550ac12e
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu May 14 16:25:12 2015 +0800
+
+    fix TrackServer
+
+commit 0abe8e7b3f70cccf6b5a3ad74c76981845eda161
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu May 14 15:49:22 2015 +0800
+
+    fix trackserver update
+
+commit 373c104239ab10703588c86dda6c3bd1441e0c08
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed May 13 16:08:56 2015 +0800
+
+    refine RemotingServer
+
+commit 559f93c3112747d4d7a952949d07fa76cd5a57b9
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue May 12 22:45:45 2015 +0800
+
+    refined by znet
+
+commit 425ce037d80558ffd2163d61f8751d7f7d22cc6f
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue May 5 18:34:37 2015 +0800
+
+    make consumer thread count configurable
+
+commit 87cc3f1ffa60a1692dd2e05b9bd7aee3fd35b0b1
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 14:44:01 2015 +0800
+
+    update release
+
+commit 0a04e8195b01ec7f79acf166f67297ac10acc0c9
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 14:42:20 2015 +0800
+
+    update release
+
+commit b56850fbd306a6aa741799284e6a2bec4adbf1e1
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 14:22:16 2015 +0800
+
+    add to zstacks organization
+
+commit 8bc240fd4d42c409ac21be7847f5df4b97b07dd9
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 14:15:07 2015 +0800
+
+    add to zstacks organization
+
+commit 914db2f9a47d60faaac5a3af1ad4237471feab1a
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 14:09:35 2015 +0800
+
+    add to zstacks organization
+
+commit b3a9abea5af788cb18a315598a43d90ba8ee968c
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 14:01:14 2015 +0800
+
+    add to zstacks organization
+
+commit 88b310ae4bb26fca9c5491c048afaf46aded26b1
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 13:42:07 2015 +0800
+
+    add to zstacks organization
+
+commit 70b42385ed44be1c60effb3f143da62dfada788e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 13:21:39 2015 +0800
+
+    add to zstacks organization
+
+commit 104f03a0412903cc758d15fa973b966267faa455
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 13:20:34 2015 +0800
+
+    add to zstacks organization
+
+commit 4967e9c3b5b02040775049854b721bef61542dd9
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 13:08:36 2015 +0800
+
+    add to zstacks organization
+
+commit 0dda8ab56e31b8e76802928a21b78c390b3a8c83
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 12:46:48 2015 +0800
+
+    add to zstacks organization
+
+commit ac111fba4eebddfdea0474ab7b0cbf43385af56b
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Apr 28 12:36:12 2015 +0800
+
+    add to zstacks organization
+
+commit 6c2ccd0d5befd8f98514a7e7a7acba1c72360bbe
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 27 14:50:17 2015 +0800
+
+    update readme
+
+commit 8111eb9697874b536901b232363a7ad4d31f491b
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 27 14:05:21 2015 +0800
+
+    update readme to fix 404
+
+commit e0fd9fb85d19ebe796a1e95c0df95ffa55eda01a
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Apr 24 14:19:41 2015 +0800
+
+    update ServiceLoader
+
+commit a3642c0214884887f2af97eee59ce73243796645
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 20 22:37:41 2015 +0800
+
+    shrink miminum JVM memory size configuration to 64M
+
+commit 65b01e6009d668d8f0bb197c6361a0bc4582f752
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 20 21:59:40 2015 +0800
+
+    update readme
+
+commit 383ef02b75bbe6128f4698c0e69c98e7f9fb45f1
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 20 21:58:29 2015 +0800
+
+    update readme
+
+commit a7200049f76e0e53dbd57e8ab4d6e9e805e9a424
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 20 13:54:18 2015 +0800
+
+    bump to 5.2.1 for Guosen
+
+commit e12a0d6e8c8be5f6d681bfb80b9684ae0433acbe
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 20 09:53:06 2015 +0800
+
+    fix bat JAVA_HOME
+
+commit 0d490ba75689d01f6a7a5b029b57638c3ae0c07e
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 20 08:52:44 2015 +0800
+
+    update changelog
+
+commit 921bdc7baf9f549cebeb990c5646849f47a16d91
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 22:46:18 2015 +0800
+
+    log4j properties added back
+
+commit 24aaaeff13c5c0d8814e80286f07ef6a0a2b6c52
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 22:26:34 2015 +0800
+
+    update readme
+
+commit cb8583d91359ab24df9d104d27d98dc1442cbcb1
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 22:22:39 2015 +0800
+
+    add linux shell release of 5.2.0
+
+commit 5bd8c23b7587f9cfd4d3607bd29d266588ca8046
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 22:08:27 2015 +0800
+
+    upload dist 5.2.0
+
+commit 8c99fea18c9dc646a6191d79dc0169a23c1eda10
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 22:01:56 2015 +0800
+
+    release 5.2.0
+
+commit d4efbc693f5cb1ffaebde830737a7e49d5fd26f7
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 19:06:17 2015 +0800
+
+    update dist
+
+commit 5bf0de754635f3b7c82cb90fcd1d23506f22d2e9
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 18:10:05 2015 +0800
+
+    HA updated
+
+commit b076147e3557b18af1b2361ebd58781a335809a4
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 17:58:07 2015 +0800
+
+    HA updated
+
+commit 21113be45cd218dd947c410fe6e358893fc46f35
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 13:42:51 2015 +0800
+
+    update readme
+
+commit 7ea83fe0e7ed8db79f4d1b1a0f2132e87554f69f
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 09:38:30 2015 +0800
+
+    target backward to JDK 5
+
+commit f0a774f30219594fe858bdff993098e7558279c7
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 19 09:25:57 2015 +0800
+
+    backward to JDK 5
+
+commit c7263e07e947a9ebf7a4b0a64ebfbf0884710eb8
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Apr 17 17:01:22 2015 +0800
+
+    target backward to JDK6
+
+commit 1b13f1cd433b662015a4578ae6ebcab47d087588
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Apr 17 15:06:18 2015 +0800
+
+    Producer support createMQ
+
+commit de7c75d2f600b73116553966d4232506b92218b1
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Apr 16 16:09:47 2015 +0800
+
+    bump to 5.2.0
+
+commit d62c5116292bdec1dedc6ca7ebd4a5b5251bd1e2
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Mar 31 13:11:22 2015 +0800
+
+    fixed MessageStore MQ name error when zbus port changed
+
+commit 8daf9415ea265fe73a60fd0ef8f53f225a9dcd6c
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Mar 31 09:37:33 2015 +0800
+
+    release 5.1.0
+
+commit 1b5a3f5b94c1a852f377fcb49bae01133a12e79c
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Mar 27 13:58:21 2015 +0800
+
+    update readme
+
+commit f3d5af0e61db0479aca2c4d8147f4d20f237fc50
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Mar 27 10:41:36 2015 +0800
+
+    release 5.1.0
+
+commit c82711a23983644fadb26cb0a8b1ce8960256c5e
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Feb 16 12:39:17 2015 +0800
+
+    client->common server->common dependency only
+
+commit f67c661e7e46a5eb8d6087bf93d36cc856b71ab9
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 15 23:53:04 2015 +0800
+
+    message store to SQL ready
+
+commit a9d671edb87b32f6b9110ed8d6272829595f3aa5
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 15 11:00:54 2015 +0800
+
+    remove jetty dependency
+
+commit bbc89484328f977250b2de54e9303ac3beed48de
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 15 10:29:12 2015 +0800
+
+    remove log4j.properties
+
+commit c6bb0577252e222a5cd538025d9cba545442313b
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 15 10:13:39 2015 +0800
+
+    move remoting package to common
+
+commit a465bf40c9c023e4abb45f18648532245f143495
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 15 09:43:46 2015 +0800
+
+    refine protocol package
+
+commit a010bd1acdd8a468ff4fd260ecfc669aca7ad36d
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 10:33:11 2015 +0800
+
+    add spring example
+
+commit 03b042c3b79f53cea57b39a080e14f573760977b
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 10:21:13 2015 +0800
+
+    add spring example
+
+commit 9df5131c05705eda56b453da31310c44d1db7817
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 10:14:03 2015 +0800
+
+    add spring example
+
+commit 231036a8614119cc7e2b3abe790dd3caa1b42650
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 10:09:13 2015 +0800
+
+    add spring example
+
+commit dc82547fc07b3d01bb9b91a03783c7e07bc60f6f
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 10:02:14 2015 +0800
+
+    add spring example
+
+commit 86c072f088a12a8a79284a93a3c0c5fa8ff1ae90
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 10:01:10 2015 +0800
+
+    add spring example
+
+commit 492881daf141ede7f423c3fbd1add7c2341cc521
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 09:43:01 2015 +0800
+
+    update readme
+
+commit af3c12684a633b27e55f493657b3d310f0849761
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 09:20:22 2015 +0800
+
+    update readme
+
+commit 8c65695cf861b2c15ab3a042009e8e7d3e498716
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 09:07:00 2015 +0800
+
+    add zbus-msmq, zbus-kcxp link
+
+commit 4919241819c203fcc493a2eee03fee6e0eab56cd
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Feb 12 09:05:41 2015 +0800
+
+    add zbus-msmq, zbus-kcxp link
+
+commit f2fc31d431779fc966c98fad63132e037695637c
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Feb 11 14:25:20 2015 +0800
+
+    add reply-code support for protocol
+
+commit d439bf6522802cb7fa1f26301f5e934f288b772e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 16:13:51 2015 +0800
+
+    delete protocol.txt, merge to readme.md
+
+commit 8819735cd32be7300c83b62e14a8d6e77e2de2c4
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 16:04:05 2015 +0800
+
+    update readme
+
+commit aaaaa8240dda829e70c99a096f14a62829934a4e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 15:56:07 2015 +0800
+
+    update readme
+
+commit d8607acecc40c7c8c9571012db35b6ef82e761a1
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 15:51:14 2015 +0800
+
+    update readme
+
+commit 00ffe2ec0244417b479797f56ecce3a857ff64a8
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 15:44:11 2015 +0800
+
+    update readme
+
+commit a88dd0c6c23ba323c7ec46b358a053a55f983072
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 15:40:57 2015 +0800
+
+    udpate readme
+
+commit 213d4774fbd1fefdb6a81842839277494db830fa
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 14:38:25 2015 +0800
+
+    separate api and proxy to different projects
+
+commit aec781c557c324d0b6816718d14801219e07fcc2
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 14:09:06 2015 +0800
+
+    update snapshot release
+
+commit 5ffa4133bef1b70682aea001d17b2e95c001529c
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Feb 10 14:07:01 2015 +0800
+
+    ServiceLoader updated
+
+commit bd3ae814aacc105558b7fab02ace7db29af4483c
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Feb 9 22:19:04 2015 +0800
+
+    refine ServiceLoader, congrats to OSC@GIT upgrade:)
+
+commit 2f0513feba17a49c430ccad1ad267a5eda854061
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 8 21:50:15 2015 +0800
+
+    add service container support, with separated ClassLoader
+
+commit 235a8661cc1f772a0f7226747fbc5cf7747bdc3c
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 8 19:45:51 2015 +0800
+
+    add spring plugin support
+
+commit 8d111fe8646abc9fe2a0cb2ce8e4efc3a5238686
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Feb 4 20:19:24 2015 +0800
+
+    update released jar
+
+commit b30b1c09c5c03cbd92b8ddc09e1d15148fe7dce7
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Feb 4 20:17:56 2015 +0800
+
+    fix default command to Admin
+
+commit b9332b111ff822027c4854aa952e2c881776ab7e
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Feb 4 17:02:50 2015 +0800
+
+    add message persist store
+
+commit a032d4f3f7c6b1e45735fed559dda12aca68ee4b
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 1 22:03:46 2015 +0800
+
+    Update zbus-protocol.txt
+
+commit 5b82675530c60374758d2443d04f7a1992d6ab3d
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Feb 1 21:53:14 2015 +0800
+
+    add zbus protocol
+
+commit 61cfb186e6f451e8bf2ba74393bcbad52f57db8d
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jan 31 17:51:42 2015 +0800
+
+    release jar updated
+
+commit e18fc109582386c8f000391b3b101670059257bb
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jan 31 17:14:22 2015 +0800
+
+    add Spring support examples, cool integration
+
+commit 2984858cda1dede45d7a008415db70f6978b2586
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Jan 31 11:04:52 2015 +0800
+
+    rpc implemention refined to json neutral
+
+commit 5466b2fc45b47afb7d5b57d0352e2013975e3907
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jan 26 11:32:29 2015 +0800
+
+    update zbus-dist shell and bat
+
+commit 1ce327ae3f5c5ecaeb10ba218124023a24d14267
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jan 26 10:51:03 2015 +0800
+
+    All in a jar
+
+commit 20f2ee88068040378d1c2884dabaa9d4e62a877b
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jan 25 20:50:50 2015 +0800
+
+    refine HA mode
+
+commit c52d2895a27df947bc17ecb2f070afc3c8a48dbb
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jan 22 12:53:08 2015 +0800
+
+    add java 5.1.0 release
+
+commit cad8e4ddffb4d824bff9b0e49ac4c2e9e6e3edbb
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Jan 22 12:51:49 2015 +0800
+
+    Refined java client, especially for HA mode
+
+commit 9afdf23bb7e57c9ae47a206e64b1fc353865f9f9
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jan 18 11:23:34 2015 +0800
+
+    update release jar
+
+commit 018157b46bd9d57d713fc967fa99c2c2a8a27735
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Jan 18 11:14:35 2015 +0800
+
+    fix bug for message mismatch of reply queue
+
+commit 42a9892084d3d0ebe83d5ed7067480a1fa525c21
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Dec 25 09:57:27 2014 +0800
+
+    add backward support to JDK6
+
+commit 4077b89621a19f02e057bac7210272b18a6695cc
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 14 20:39:22 2014 +0800
+
+    update proxy directory
+
+commit a2c75f75323da76ca09d80acd1873e9a44f78a60
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Sep 14 14:46:52 2014 +0800
+
+    refine c API folder
+
+commit f2343497f97b4e74ee14d3959f5a6a77a3936b59
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 11 16:57:46 2014 +0800
+
+    update CTP proxy
+
+commit 32e5761107de1478676ecc1b746a05fed4d51199
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Sep 11 16:49:05 2014 +0800
+
+    update CTP proxy
+
+commit 0bab18817929590f1a1d1306a9143438e121fb58
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Sep 9 15:43:09 2014 +0800
+
+    replace timer by ScheduledThreadPoolExecutor
+
+commit 0301616a782208bc4bc90d90894b18c26cf59162
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 3 22:19:01 2014 +0800
+
+    update client package
+
+commit c75110a57eefc3a55d6dd386b1c03f23eff11ac2
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 3 12:22:00 2014 +0800
+
+    refector common
+
+commit 8ed4aada53813c4f7d70b21d72115f87ed4d166d
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 3 12:19:18 2014 +0800
+
+    refector common
+
+commit e6f61621216df0fed139cb7e6941fe9dfa7a84e4
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Sep 3 12:15:45 2014 +0800
+
+    refector package path to common
+
+commit 3ba97015ae4b04314a72c9b38a6b3292010dd125
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 21 14:46:36 2014 +0800
+
+    zbus-msmq bridge released
+
+commit a10be798b87d98b056b45e3c8aeb9f5fba322942
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 18 08:58:59 2014 +0800
+
+    Add zbus Java example via Maven
+
+commit 81c5c49145c43142adc7ff308d41a9318d5f9362
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 17 20:38:11 2014 +0800
+
+    Add Persist interval setting support
+
+commit 4c4fcde347e5fc0f8f6d72a9686fcd0c7ec2e5fd
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 17 20:14:33 2014 +0800
+
+    ADD MQ persist support
+
+commit 1ebabf3e4818ad701960fbe0d9b2115dc05c150f
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 17 20:12:37 2014 +0800
+
+    ADD MQ Persist Support
+
+commit b2c6d91b5e56c393e9e8aa8bf2abc72eeaf02155
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 16 11:38:46 2014 +0800
+
+    Update Java package for Maven central deployment requirement
+
+commit 9207dd12de97e0aa76783d79b0e7b9b16f1af320
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 14 11:23:37 2014 +0800
+
+    ZbusServer add invalid session clean
+
+commit 0f4f9f437f3670377e4c6894ec6d5cd56fc83081
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 12 15:56:57 2014 +0800
+
+    Go API started
+
+commit cc90361e8c08d0544c202cd9ac7b223f6ac19e9f
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 12 15:55:38 2014 +0800
+
+    Go API started
+
+commit 74cf54e29cbb5963bb1a8eee45c6fce345d0aa77
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 12 14:29:27 2014 +0800
+
+    Java API add Spring integration example
+
+commit 8c41d0270b2c8961530e78871ecab47cbc5fd5e8
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Aug 11 12:38:22 2014 +0800
+
+    add Go API directory
+
+commit d05a56529c7f6fa17f470e4740ca7dc92a800c96
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 10 22:19:10 2014 +0800
+
+    Node.JS Rpc/JsonRpc added
+
+commit e20ba1372566751618c6aa1fd2be62b4a1f3baa8
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 10 18:52:57 2014 +0800
+
+    Node.JS API, Producer/Consumer updated
+
+commit 78d46184cb37d469448e2f63d42093d5fdfc1541
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 10 14:32:04 2014 +0800
+
+    update node.js API
+
+commit 0f2936ff43a31a0986ceaae48c7a9e21c1a8dea4
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 10 00:40:40 2014 +0800
+
+    update node.js API
+
+commit 6a35e831e0b899503911ec33ea46ebd3a377b689
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 10 00:01:15 2014 +0800
+
+    message decode update
+
+commit 29bdcf7e9fd835d98dbb8e52839f95895c0d03fe
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 9 20:55:01 2014 +0800
+
+    update node.js API
+
+commit 4c1add14b07e7644ac0d64f578f94ac3e4fa2884
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 9 19:35:59 2014 +0800
+
+    update node.js API
+
+commit cb672aa1f63187de248e0f4779bc44af1b34b1da
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 9 17:02:39 2014 +0800
+
+    update node.js API
+
+commit 8e86351c76d1d8d356c31693313cebaf5ea28fba
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 8 15:08:36 2014 +0800
+
+    update c directory for linux and windows
+
+commit 9e07497465893f0b69cc4b002f3a607557a9393a
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 8 14:32:59 2014 +0800
+
+    update c linux distribution
+
+commit 3c8203965064eefa67d6e39ef2d170a65dd88b04
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 8 13:11:49 2014 +0800
+
+    add linux shell for ZbusServer and TrackServer
+
+commit f41800fd2e779e06f63016ffd13cea1885bcaeb5
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 8 10:07:16 2014 +0800
+
+    add php,lua directory
+
+commit ab4f5e37f5f3ceb877cd58a5c3224028b3b5ed72
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Aug 8 09:59:38 2014 +0800
+
+    add proxy directory
+
+commit 86dc04c323335e1ad4fad52eb098aef72052f9ac
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 7 22:13:18 2014 +0800
+
+    update java, add empty swift directory, plan:)
+
+commit 73b9c4ea97b82063c3f5715f34e42dbeec6c96f4
+Author: 少帮主 <44194462@qq.com>
+Date:   Thu Aug 7 21:47:20 2014 +0800
+
+    update C# API
+
+commit 4430926623e37334c923311c2504603e475795d9
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Aug 6 08:55:27 2014 +0800
+
+    update doc for pubsub
+
+commit a14018643f58c888f0b6339798b19e40ed5b836e
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 5 23:03:50 2014 +0800
+
+    update doc
+
+commit 116f7f9e575b21dcf37e2b81cebfdeb8581c4008
+Author: 少帮主 <44194462@qq.com>
+Date:   Tue Aug 5 18:08:48 2014 +0800
+
+    update doc
+
+commit 1d267e76a3634e4ae6118bc1a87645e22a4ac9eb
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 3 19:00:25 2014 +0800
+
+    update Readme.md
+
+commit 7850bc307fe72b873515032a1bb2863cd25927e0
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Aug 3 18:47:43 2014 +0800
+
+    C example and dist added
+
+commit 77bfc9d12c8961b424702344825a77aa02368ea9
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 20:13:40 2014 +0800
+
+    updated to 5.0.0
+
+commit ea386aff8c49b3d82755cf614ba6eadfc415e558
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 20:08:42 2014 +0800
+
+    updated to 5.0.0
+
+commit 1a96d7fe4845d9e8833136367db1e4427449c413
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 19:55:02 2014 +0800
+
+    updated to 5.0.0
+
+commit 1981409bff0fde90f21d17f8cdc5500034aad30a
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 19:49:14 2014 +0800
+
+    updated to 5.0.0
+
+commit 44b22be29b49fd9c4da1e6523e4286397299e9db
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 19:36:28 2014 +0800
+
+    updated to 5.0.0
+
+commit b31e747de0ebaea7318ab8ee610a8278c4bdea02
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 19:26:07 2014 +0800
+
+    updated to 5.0.0
+
+commit b909e55ecfd1439fc95f80372c6f89e8717d3483
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Aug 2 19:24:42 2014 +0800
+
+    updated to 5.0.0
+
+commit 00a0970bfe9a30b4a9b9451d255c5eee8172b4dd
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jun 20 16:56:33 2014 +0800
+
+    v3.6.2
+
+commit a87627f6e65831f65202b3df6c4bea383df4b1bb
+Author: 少帮主 <44194462@qq.com>
+Date:   Fri Jun 20 16:53:04 2014 +0800
+
+    v3.6.2
+
+commit 210bd1340c895436bbf7e0c3c20dd3ac0341d981
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Apr 14 08:49:38 2014 +0800
+
+    update doc
+
+commit 2ef124a02343da9b274579e25ab869cc4e7c6e98
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 21:00:42 2014 +0800
+
+    update
+
+commit a86b1d27bff5b5e6a100beb33809e56849316fa9
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 20:44:59 2014 +0800
+
+    update
+
+commit 351dce8ac535a8e3799b9a777085da7a1e345b18
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 20:39:06 2014 +0800
+
+    update doc
+
+commit a1d61c86e68059b98d53af350ea9c52ff1dcc701
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:39:00 2014 +0800
+
+    update doc
+
+commit cb1930ce3a4b263a2ae7f68a986c6b97a4add133
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:31:05 2014 +0800
+
+    update doc
+
+commit da7cd9a81516fab63bf7baff1f1c175657329929
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:22:33 2014 +0800
+
+    update doc
+
+commit a06eb7e722d7910886a3d54d06c1826dc4acf7d0
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:21:34 2014 +0800
+
+    update doc
+
+commit 58a9831bf6eaf215621973a311acc4e6bdb5f8fd
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:19:36 2014 +0800
+
+    update doc
+
+commit 930ead341d84df613dcb72d5a62990970fc8ba66
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:08:55 2014 +0800
+
+    udate doc
+
+commit d3cfefbf66fd24796a280f4449cbbcaf0e024967
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 14:06:21 2014 +0800
+
+    update doc
+
+commit d07162a10eed2c8b127769c4d53843324a443329
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 13:59:51 2014 +0800
+
+    update doc
+
+commit 26a4eef2412edfd1684b284cea3b3b26eb8020ad
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 11:51:44 2014 +0800
+
+    clean dependents
+
+commit 3461989c86ab1ba4d0bf02791279bf90b3f5dfcc
+Author: 少帮主 <44194462@qq.com>
+Date:   Sun Apr 13 11:38:57 2014 +0800
+
+    update project name
+
+commit 465d66d60650d0213f0e8f5cc2696c56672c626f
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Apr 12 22:52:47 2014 +0800
+
+    delete workqueue
+
+commit e34862c901dd55bdd35f66e0b16520c6ed79aba1
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Apr 12 22:46:24 2014 +0800
+
+    zbus libevent version init
+
+commit b2585a5d73e17bf9a96f08a1b020560f6a2ff1f8
+Author: 少帮主 <44194462@qq.com>
+Date:   Sat Apr 12 22:45:05 2014 +0800
+
+    delete zeromq version
+
+commit c592be99e4bdc074ebefd7d0c7965e7b33301dfb
+Author: 王振威 <jack230230@gmail.com>
+Date:   Mon Feb 24 13:37:25 2014 +0800
+
+    add readme
+
+commit f759e99ba5fc4bb37bddf05ced3b4f22a580183b
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jan 22 13:47:27 2014 +0800
+
+    发布v3.9.0更新zmq至3.2.4
+
+commit cde666c60da79891bf78727b6728bcd65a2efb08
+Author: 少帮主 <44194462@qq.com>
+Date:   Wed Jan 22 13:36:53 2014 +0800
+
+    first commit
+
+commit 1cc4a5a1ea6bfb83bbceae8b1f5eb5097df4a825
+Author: 少帮主 <44194462@qq.com>
+Date:   Mon Jan 20 14:06:51 2014 +0800
+
+    Initial commit
